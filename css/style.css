@@ -731,7 +731,7 @@ html {
       min-width: 300px;
       width: 100%;
       background: #d45a45;
-      padding: 48px; }
+      padding: 24px 48px; }
 
   .resto {
     background: url(../img/med_resto.png); }
