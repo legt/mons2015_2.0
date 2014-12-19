@@ -488,7 +488,8 @@ a img {
   color: white; }
 
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: #2a2a2a; }
 
 html {
   box-sizing: border-box; }
@@ -626,12 +627,12 @@ html {
 .line {
   display: none; }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 643px) {
   .line {
     display: block;
     position: relative;
     left: 0;
-    height: 3px;
+    height: 5px;
     width: 100px;
     background-color: #d45a45; }
 
@@ -654,7 +655,7 @@ html {
 
   h2 {
     display: inline-block;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 24px;
     border: 1px white solid;
     border-radius: 2px; }
@@ -689,6 +690,8 @@ html {
   .pt_interet .pt_interet_lieu {
     width: 100%;
     float: left; }
+    .pt_interet .pt_interet_lieu .pt_ic {
+      display: block; }
   .pt_interet article {
     border-top: 1px solid #343434;
     color: white;
@@ -706,10 +709,10 @@ html {
       margin: 0; }
 
 .pt_ic {
+  display: none;
   position: absolute;
   text-align: center;
   width: 100%;
-  margin-left: -24px;
   display: block;
   top: -28px; }
 
@@ -731,7 +734,7 @@ html {
 .pt_interet_info {
   display: none; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 643px) {
   .pt_interet_logo {
     display: block;
     width: 100%;
@@ -751,6 +754,8 @@ html {
     .pt_interet .pt_interet_lieu {
       width: 50%;
       position: relative; }
+      .pt_interet .pt_interet_lieu .pt_ic {
+        display: none; }
     .pt_interet article {
       border-top: none;
       border-right: 1px white solid;

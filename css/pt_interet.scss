@@ -20,6 +20,10 @@
 	.pt_interet_lieu{
 		width: 100%;
 		float: left;
+
+		.pt_ic{
+			display: block;
+		}
 	}
 	article{
 		
@@ -46,10 +50,11 @@
 	}
 }
 .pt_ic{
+	display: none;
 	position: absolute;
 	text-align: center;
 	width: 100%;
-	margin-left: -24px;
+	
 	display: block;
 	top:-28px;
 
@@ -80,7 +85,7 @@
 	display: none;
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:643px){
 	.pt_interet_logo{
 		display: block;
 		width: 100%;
@@ -103,6 +108,9 @@
 		.pt_interet_lieu{
 			width: 50%;
 			position: relative;
+			.pt_ic{
+				display: none;
+			}
 
 		}
 		
