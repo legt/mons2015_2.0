@@ -35,7 +35,7 @@
 		}
 		p{
 			font-weight: 100;
-			float: left;
+			display: inline;
 			margin: 0;
 
 		}
@@ -100,7 +100,6 @@
 		.pt_interet_lieu{
 			width: 50%;
 			position: relative;
-			top: 250px;
 
 		}
 		
@@ -133,8 +132,6 @@
 	.pt_interet_info{
 		display: block;
 		background: #F0F0F0;
-		height: 250px;
-		position: absolute;
 		padding: 48px;
 		font-size: 16px;
 		h3{
