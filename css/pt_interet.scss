@@ -16,9 +16,13 @@
 	background: $grisfonce;
 	border-bottom: 5px $red solid;
 	position: relative;
-	article{
+
+	.pt_interet_lieu{
 		width: 100%;
 		float: left;
+	}
+	article{
+		
 		border-top: 1px solid #343434;
 		color: white;
 		font-size: 16px;
@@ -33,6 +37,7 @@
 			font-weight: 100;
 			float: left;
 			margin: 0;
+
 		}
 		.pt_interet_right{
 			float: right;
@@ -71,24 +76,72 @@
 	background: url(../img/small_parking.png);
 
 	}
+.pt_interet_info{
+	display: none;
+}
 
 @media screen and (min-width:600px){
-
 	.pt_interet_logo{
-		
+		display: block;
 		width: 100%;
 		height: 165px;
 		background: #f0f0f0;
+		border-right: 1px solid #d1d1d1;
+		border-top: 1px solid #d1d1d1;
 	}
+	.pt_ic{
+
+		margin-left: -48px;
+
+		}
 	.pt_interet{
 		background: $red;
+		border-bottom: 5px $grisfonce solid;
+		.pt_interet_lieu{
+			width: 50%;
+			position: relative;
+			top: 250px;
+
+		}
 		
 		article{
 			border-top: none;
 			border-right: 1px white solid;
 			min-width: 300px;
-			width: 50%;
+			width: 100%;
+			background: $red;
+			padding:48px;
 			
+		}
+	}
+.resto{
+
+	background: url(../img/med_resto.png);
+
+	}
+
+.hosto{
+
+	background: url(../img/med_hosto.png);
+
+	}
+.parking{
+
+	background: url(../img/med_parking.png);
+
+	}
+	.pt_interet_info{
+		display: block;
+		background: #F0F0F0;
+		height: 250px;
+		position: absolute;
+		padding: 48px;
+		font-size: 16px;
+		h3{
+			text-align: center;
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
 		}
 	}
 }
