@@ -1,0 +1,156 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mons 2015</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript"	src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbj8qR69lAQf0DkOTR5gRwKlZkly7Z7_I&sensor=true" type="text/javascript"></script>
+	<script type="text/javascript" src="js/listBatiment.js"></script>
+
+
+</head>
+<body>
+<div class="menu_container">
+	<div class="hamburger"><img src="img/hamburger.png" alt="toggleMenu" width="28px" height="28px"></div>
+		<div class="nav">
+			<a href="#"><img src="img/close.png" alt="" class="closeMenu" ></a>
+			<ul>
+				<li><a class="nav_top" id="active"href="#">LA MAISON FOLIE</a></li>
+				<li><a class="nav_top" href="#">LE MANèGE.MONS</a></li>
+				<li><a class="nav_top" href="#">LE DéPôT DES OEUVRES D’ART</a></li>
+				<li><a class="nav_top" href="#">les ABATOIRES</a></li>
+				<li><a class="nav_top" href="#">ARSONIC</a></li>
+				<li><a class="nav_top" href="#">LE CARRé DES ARTS</a></li>
+				<li><a class="nav_top" href="#">LE bam</a></li>
+				<li><a class="nav_top" href="#">Le corps de ville</a></li>
+				<li><a class="nav_top" href="#">LA GARE</a></li>
+				<li><a class="nav_top" href="#">LA Fondation mons 2015</a></li>
+
+			</ul>
+			<ul class="ul_bottom">
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="home"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="newsletter"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="face"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="twit"></a></li>
+			</ul>
+	</div>
+</div>
+<div id="container">
+	<section class="maps" id="maps"></section>
+	<div class="contenu slide_contenu">
+		<div class="mask" ></div>
+			<section class="header_contenu">
+				<div class="titre_h2">
+				<h2>La maison en folie</h2>
+				</div>
+
+				<article class="contenu_info">
+
+					<p class="header_contenu_info">	
+						Adresse <br> 	
+						Téléphone <br> 	
+						E-mail 	
+
+						<p class="header_contenu_info_rep">
+							Grand Place, 7000 Mons <br>
+							+32(0)65 39 59 39 <br>
+							tickets@lemanege-mons.be
+						</p>
+					</p>
+
+				</article>
+
+			</section>
+
+			<section class="contenu_top">
+				<div>
+						<a href="#" class="button_champs" id="button_Apropos">A propos</a>
+						<a href="#" class="button_champs" id="button_Pinteret">Point d'intéret</a>
+				</div>
+				<div id="Apropos">
+					<div class="container_slider1">
+						
+						<img src="img/IMG_MONS_2015/15399655402_079216367a_o.jpg" alt="La maison Folie" class="img_monument">
+						
+						<div class="container_button_slider">
+							<a href="#" class="button_slider"></a>
+							<a href="#" class="button_slider"></a>
+							<a href="#" class="button_slider"></a>
+						</div>
+						
+					</div>
+						
+						<div class="contenu_propos">
+							<p>
+								<span class="contenu_propos_bold">Architectes</span> <br>
+								<span class="contenu_propos_regular">Atelier d’Architecture Matador</span> <br>
+								<span class="contenu_propos_small">(Mons-Bruxelles, B.)</span> <br>
+								<div class="line"> </div><br>
+							</p>
+							<p class="contenu_propos_red">
+								La Maison Folie de Mons, à l’instar du Palais de Tokyo, de l’Espace Lu à Nantes ou encore de la Condition Publique à Roubaix, n’a pas le souci de paraître mais seulement celui d’être au plus près de ceux qui l’habitent.
+							</p>
+							<p>
+								Invité à redéfinir simplement les zones d’accueil et d’accès de la salle de théâtre existante, le bureau d’architecture Matador est parvenu à réaffecter l’ensemble du domaine exploitable. 
+							</p>
+							<p>
+								Si la salle de théâtre est restée dans son état initial, Matador, pratiquant une architecture de friche, revendique pleinement l’originalité des concepts d’ «espace des possibles» et de la «Margin’halle» – ces deux lieux proposant aux associations une série d’espaces modulables de qualité regroupés autour de la cour centrale.
+							</p>
+							<p class="contenu_propos_sponsor">
+								<b class="contenu_propos_sponsor_bold">Maître d’ouvrage </b><br>
+								Ville de Mons, cofinancée par 
+								le Ministère de la Communauté française Wallonie-Bruxelles, Service
+								des Infrastructures culturelles, et l’Union Européenne – Fonds FEDER
+							</p>
+
+						</div>
+				</div>
+				<div id="Pinteret">
+						<img src="img/pointeurMap.jpg" alt="Pointeur" class="img_monument">
+						<div class="pt_ic">
+							<div class="resto pt_icone"></div>
+							<div class="hosto pt_icone"></div>
+							<div class="parking pt_icone"></div>
+						</div>
+						<section class="pt_interet">
+							<article>
+								<h3>Titre</h3>
+								<p>adresse</p>
+								<p class="pt_interet_right">500 m</p>
+							</article>
+
+							<div class="clear"></div>
+
+							<article>
+								<h3>Titre</h3>
+								<p>adresse</p>
+								<p class="pt_interet_right">500 m</p>
+							</article>
+
+							<div class="clear"></div>
+
+							<article>
+								<h3>Titre</h3>
+								<p>adresse</p>
+								<p class="pt_interet_right">500 m</p>
+							</article>
+
+							<div class="clear"></div>
+							<article>
+								<h3>Titre</h3>
+								<p>adresse</p>
+								<p class="pt_interet_right">500 m</p>
+							</article>
+							<div class="clear"></div>
+						</section>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</body>
+</html>
