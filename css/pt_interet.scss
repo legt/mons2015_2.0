@@ -1,13 +1,21 @@
 #Pinteret {
 	display: none;
 }
-
+.img_curser{
+	width: 100%;
+	height: auto;
+}
 .clear{
 	clear: both;
 }
+.pt_interet_logo{
+	display: none;
+}
+
 .pt_interet{
 	background: $grisfonce;
 	border-bottom: 5px $red solid;
+	position: relative;
 	article{
 		width: 100%;
 		float: left;
@@ -36,8 +44,10 @@
 	position: absolute;
 	text-align: center;
 	width: 100%;
+	margin-left: -24px;
 	display: block;
-	top:214px;
+	top:-28px;
+
 }
 .pt_icone{
 	height: 56px;
@@ -61,3 +71,24 @@
 	background: url(../img/small_parking.png);
 
 	}
+
+@media screen and (min-width:600px){
+
+	.pt_interet_logo{
+		
+		width: 100%;
+		height: 165px;
+		background: #f0f0f0;
+	}
+	.pt_interet{
+		background: $red;
+		
+		article{
+			border-top: none;
+			border-right: 1px white solid;
+			min-width: 300px;
+			width: 50%;
+			
+		}
+	}
+}
