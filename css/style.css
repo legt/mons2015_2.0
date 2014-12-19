@@ -738,7 +738,9 @@ html {
     height: 165px;
     background: #f0f0f0;
     border-right: 1px solid #d1d1d1;
-    border-top: 1px solid #d1d1d1; }
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+    padding-top: 36px; }
 
   .pt_ic {
     margin-left: -48px; }
