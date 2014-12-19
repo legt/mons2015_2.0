@@ -38,9 +38,9 @@ text-align: center;
 }
 
 .container_slider1 {
-	height: 300px;
+	position: absolute;
 	width: 100%;
-	position: relative;
+	top:48px;
 }
 
 @media screen and (min-width:600px) and (max-width:1024px) {
