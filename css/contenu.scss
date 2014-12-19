@@ -127,6 +127,8 @@ html{
 }
 
 .contenu_propos {
+	position: absolute;
+	top: 348px;
 	margin: 0;
 	padding: 24px;
 	background-color: white !important;
@@ -163,13 +165,6 @@ html{
 		font-weight: 700;
 	}
 }
-.button_slider {
-	display: none;
-}
-
-.container_button_slider {
-	display: none;
-}
 .line {
 	display: none;
 }
@@ -185,7 +180,9 @@ html{
 	background-color: $red;
 }
 
-	
+	.contenu_propos{
+		top: 448px;
+	}
 	.contenu_info{
 		float: right;
 		margin-top: 45px;
@@ -221,24 +218,4 @@ html{
 	.img_monument{
 		height: 471px;
 	}
-	.button_slider {
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	border-radius: 5px;
-	background-color: white;
-}
-
-.button_slider:hover {
-	background-color: $red;
-}
-
-.container_button_slider {
-display: block;
-position: absolute;
-top: 475px;
-width: 100%;
-text-align: center;
-}
-
 }
