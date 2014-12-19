@@ -1,0 +1,65 @@
+$red:#d45a45;
+.container_carousel {
+	display: block;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container_img_carousel {
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.img_carousel {
+	width: 100%;
+	max-height: 300px;
+}
+
+	.button_slider {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.button_slider:hover {
+	background-color: $red;
+}
+
+.container_button_slider {
+display: block;
+position: absolute;
+top: 315px;
+width: 100%;
+text-align: center;
+}
+
+.container_slider1 {
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+.container_button_slider {
+	top: 415px;
+}
+	
+.container_carousel {
+	height: 400px;
+}
+
+
+.container_img_carousel {
+	height: 400px;
+}
+
+.img_carousel {
+	max-height: 400px;
+}
+
+}
