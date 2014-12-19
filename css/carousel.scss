@@ -14,7 +14,6 @@ $red:#d45a45;
 
 .img_carousel {
 	width: 100%;
-	max-height: 300px;
 }
 
 	.button_slider {
@@ -31,23 +30,18 @@ $red:#d45a45;
 
 .container_button_slider {
 display: block;
-position: absolute;
-top: 315px;
+position: relative;
 width: 100%;
 text-align: center;
+	top: -25px;
 }
-
 .container_slider1 {
 	position: absolute;
 	width: 100%;
-	top:48px;
+	top: 48px;
 }
 
 @media screen and (min-width:600px) and (max-width:1024px) {
-
-.container_button_slider {
-	top: 415px;
-}
 	
 .container_carousel {
 	height: 400px;
@@ -57,9 +51,4 @@ text-align: center;
 .container_img_carousel {
 	height: 400px;
 }
-
-.img_carousel {
-	max-height: 400px;
-}
-
 }
