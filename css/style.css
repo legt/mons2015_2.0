@@ -627,7 +627,7 @@ html {
 .line {
   display: none; }
 
-@media screen and (min-width: 643px) {
+@media screen and (min-width: 480px) {
   .line {
     display: block;
     position: relative;
@@ -734,7 +734,7 @@ html {
 .pt_interet_info {
   display: none; }
 
-@media screen and (min-width: 643px) {
+@media screen and (min-width: 480px) {
   .pt_interet_logo {
     display: block;
     width: 100%;
