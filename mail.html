@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emailing</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript"	src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/listBatiment.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="menu_container">
+		<div class="hamburger"><img src="img/hamburger_w.png" alt="toggleMenu" width="28px" height="28px"></div>
+			<div class="nav">
+				<a href="#"><img src="img/close.png" alt="" class="closeMenu" ></a>
+				<div class="nav_logo">
+				 	<p><a href="#"><img src="img/logo.png" alt="logo mons 2015"></a></p>
+				 	<div class="nav_fleche"></div>
+				</div>
+				<ul class="ul_top">
+					<li><a class="nav_top" id="active"href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA MAISON FOLIE</span></a></li>
+					<li><a class="nav_top nav_active" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE MANèGE.MONS</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE DéPôT DES OEUVRES D’ART</span></a></li>
+					<li><a class="nav_top " href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>les ABATOIRES</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>ARSONIC</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE CARRé DES ARTS</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE bam</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>Le corps de ville</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA GARE</span></a></li>
+					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA Fondation mons 2015</span></a></li>
+
+				</ul>
+				<ul class="ul_bottom">
+					<li class="li_bottom"><a class="nav_bottom" href="#" id="home"></a></li>
+					<li class="li_bottom"><a class="nav_bottom" href="#" id="newsletter"></a></li>
+					<li class="li_bottom"><a class="nav_bottom" href="#" id="face"></a></li>
+					<li class="li_bottom"><a class="nav_bottom" href="#" id="twit"></a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="contenu_mail">
+		<div class="mail_top">
+			<p><span>" Abonnez-vous à notre Newsletter "</span><img src="img/mail.png" alt="icone mail"></p>
+		</div>
+
+		<div class="mail_main">
+			<form action="traitement.php" method="get">
+
+				<p>
+					<label for="nom">Nom: <br>
+						<input type="text" id="nom" name="nom" placeholder="Nom">
+					</label>
+				</p>
+
+				<p>
+					<label for="Email">Email: <br>
+						<input type="text" id="Email" name="Email" placeholder="Email">
+					</label>
+				</p>
+				<p>
+					<input type="submit" value="newsletter">
+				</p>
+			</form>
+		</div>
+
+		<div class="mail_bot">
+			<p>
+				<img src="img/sponsor/wallonie.png" alt="logo wallonie">
+				<img src="img/sponsor/eu_culture.png" alt="logo capitale européenne de la culture">
+				<img src="img/sponsor/walonnie_bxl.png" alt="logo wallonie bruxelles">
+				<img src="img/sponsor/club.png" alt="logo club mons 2015">
+				<img src="img/sponsor/hainaut.png" alt="logo province du hainaut">
+				<img src="img/sponsor/ing.png" alt="logo ing">
+				<img src="img/sponsor/mons.png" alt="logo mons">
+				<img src="img/sponsor/lotterie.png" alt="logo loterie nationale">
+				<img src="img/sponsor/rtbf.png" alt="logo rtbf">
+				<img src="img/sponsor/w_b.png" alt="logo wallonie bruxelles tourisme">
+				<img src="img/sponsor/lesoir.png" alt="logo le soir">
+			</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

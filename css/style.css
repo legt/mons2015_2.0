@@ -448,7 +448,8 @@ a img {
 .hamburger {
   position: fixed;
   width: 100%;
-  z-index: 2000; }
+  z-index: 2000;
+  display: block; }
   .hamburger img {
     position: fixed;
     top: 10px;
@@ -483,6 +484,92 @@ a img {
 #newsletter {
   background: url(../img/icon_newsletter.png) no-repeat center; }
 
+.nav_logo {
+  display: none; }
+
+.nav_icone {
+  display: none; }
+
+@media screen and (min-width: 960px) {
+  .hamburger {
+    display: none; }
+
+  .nav {
+    float: left;
+    position: fixed;
+    display: block;
+    width: 310px;
+    background-color: #343434; }
+
+  .nav_icone {
+    display: block;
+    margin: 8px 24px;
+    padding: 0; }
+
+  .nav_top {
+    height: 110px;
+    line-height: 110px;
+    border-right: 0;
+    border-left: solid 5px #bbbbbb;
+    background-color: #343434;
+    font-size: 14px; }
+    .nav_top span {
+      text-align: left;
+      margin-left: 80px; }
+
+  .nav_top:first-child {
+    border-top: 1px solid #4e4e4e; }
+
+  .nav_top:hover, .nav_active {
+    border-left: 5px solid #d45b46;
+    border-right: 0px;
+    background-color: #2a2a2a; }
+
+  .nav_logo {
+    display: block;
+    height: 280px;
+    border-left: solid #bbbbbb 5px;
+    padding-top: 24px; }
+    .nav_logo p {
+      margin: 0; }
+    .nav_logo img {
+      margin: 18px 0px 0px 50px; }
+
+  .ul_top {
+    padding-bottom: 40px; }
+
+  .ul_bottom {
+    width: 310px;
+    position: absolute;
+    bottom: 0;
+    height: 110px;
+    border-top: 0px;
+    background-color: #343434;
+    border-left: solid 5px #bbbbbb; }
+
+  .li_bottom {
+    display: inline-block;
+    line-height: 110px;
+    width: 25%;
+    border-right: 0px; }
+
+  .nav_none {
+    display: none; }
+
+  .nav_bottom {
+    margin-top: 25px; }
+
+  .closeMenu {
+    display: none; }
+
+  .nav_fleche {
+    width: 23px;
+    height: 46px;
+    background: url(../img/nav_fleche.png);
+    margin-left: 305px; }
+
+  #container {
+    position: relative; } }
 ::selection {
   background-color: #d45a45;
   color: white; }
@@ -783,3 +870,81 @@ html {
       font-size: 20px;
       font-weight: 700;
       text-transform: uppercase; } }
+.container {
+  position: relative;
+  min-height: 100%; }
+
+.mail_top {
+  height: 225px;
+  background: #d45a45; }
+  .mail_top p {
+    text-align: center;
+    margin: 0;
+    padding-top: 65px; }
+  .mail_top span {
+    display: none; }
+
+.contenu_mail, .contenu_main {
+  position: relative;
+  min-height: 100%;
+  margin: 0 auto;
+  padding-bottom: 150px; }
+
+.mail_main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 24px; }
+  .mail_main input {
+    border: solid 1px #d45a45;
+    background: white;
+    border-radius: 2px;
+    height: 33px;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px; }
+  .mail_main input[type=submit] {
+    background: #d45a45;
+    color: white;
+    width: 135px;
+    text-transform: uppercase;
+    padding: 0; }
+
+.mail_bot {
+  padding: 24px;
+  width: 100%;
+  border-top: solid #d45a45 1px;
+  border-bottom: solid #2a2a2a 5px;
+  background: #f6f6f6;
+  position: absolute;
+  bottom: 0px; }
+  .mail_bot p {
+    text-align: center;
+    margin: 0; }
+  .mail_bot img {
+    padding: 0 5px 0 5px; }
+
+@media screen and (min-width: 480px) {
+  .mail_top {
+    height: 325px;
+    background: url(../img/bg_mail.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    .mail_top p {
+      padding-top: 0;
+      line-height: 325px; }
+    .mail_top span {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 100;
+      color: white; }
+    .mail_top img {
+      display: none; } }
+@media screen and (min-width: 960px) {
+  .contenu_mail {
+    margin-left: 305px; }
+
+  .contenu_main {
+    margin-left: 305px; } }
