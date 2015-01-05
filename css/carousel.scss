@@ -16,24 +16,24 @@ $slider-height: 350px;
     
     
     .slider_img {
-        width: 100%;
+      width: 100%;
     	height: $slider-height;
-        display: none;
-        cursor: move;
+      display: block;
+      cursor: move;
     	background-size: cover;
      
    
   	}  
   }
-  .slider-bullets {
+  .slider_bullets {
     position: relative;
-      top: -40px;
+    top: -40px;
     text-align: center;
     z-index: 1000;
     span {
       display: inline-block;
       border-radius: 25px;
-      background: white;
+      background-color: white;
       width: 20px;
       height: 20px;
       position: relative;
@@ -41,8 +41,8 @@ $slider-height: 350px;
       & + span {
         margin-left: 20px;
       }
-      &.is-active {
-          background: $red;
+      &.is_active {
+          background-color: $red;
         }
       }
     }

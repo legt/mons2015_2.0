@@ -370,26 +370,26 @@ th {
     .slider .slider_container_img .slider_img {
       width: 100%;
       height: 350px;
-      display: none;
+      display: block;
       cursor: move;
       background-size: cover; }
-  .slider .slider-bullets {
+  .slider .slider_bullets {
     position: relative;
     top: -40px;
     text-align: center;
     z-index: 1000; }
-    .slider .slider-bullets span {
+    .slider .slider_bullets span {
       display: inline-block;
       border-radius: 25px;
-      background: white;
+      background-color: white;
       width: 20px;
       height: 20px;
       position: relative;
       cursor: pointer; }
-      .slider .slider-bullets span + span {
+      .slider .slider_bullets span + span {
         margin-left: 20px; }
-      .slider .slider-bullets span.is-active {
-        background: #d45a45; }
+      .slider .slider_bullets span.is_active {
+        background-color: #d45a45; }
 
 .nav {
   width: 100%;
