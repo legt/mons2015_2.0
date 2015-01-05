@@ -86,7 +86,7 @@ html{
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		z-index: 1000;
+		z-index: 1000000;
 		clear: both;
 
 		.button_champs{
@@ -128,8 +128,8 @@ html{
 }
 
 .contenu_propos {
-	position: absolute;
-	top: 348px;
+	position: relative;
+    top: 398px;
 	margin: 0;
 	padding: 24px;
 	background-color: white !important;
@@ -181,9 +181,6 @@ html{
 	background-color: $red;
 }
 
-	.contenu_propos{
-		top: 448px;
-	}
 	.contenu_info{
 		float: right;
 		margin-top: 45px;
