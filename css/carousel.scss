@@ -6,7 +6,6 @@ $slider-height: 350px;
     height: 350px;
     position: absolute;
     top: 48px;
-    z-index: 1001;
   .slider_container_img {
     width: 100%;
   	height: $slider-height;
@@ -29,7 +28,6 @@ $slider-height: 350px;
     position: relative;
     top: -40px;
     text-align: center;
-    z-index: 1000;
     span {
       display: inline-block;
       border-radius: 25px;
