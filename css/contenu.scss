@@ -31,7 +31,7 @@ html{
 		height: 210px;
 		position: absolute;
 		width: 100%;
-		margin-top: -210px;
+		margin-top: -210px!important;
 		top: 100%;
 }
 .contenu_active{
@@ -84,7 +84,7 @@ html{
 		height: 48px;
 		width: 100%;
 		position: absolute;
-		bottom: 0;
+		bottom: 0!important;
 		left: 0;
 		z-index: 2000;
 		clear: both;
