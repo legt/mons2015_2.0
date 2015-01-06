@@ -877,8 +877,7 @@ html {
 .contenu_mail, .contenu_main {
   position: relative;
   min-height: 100%;
-  margin: 0 auto;
-  padding-bottom: 100px; }
+  margin: 0 auto; }
 
 .mail_main {
   font-family: 'Roboto', sans-serif;
@@ -892,7 +891,7 @@ html {
     height: 33px;
     width: 100%;
     margin-top: 12px;
-    padding: 12px; }
+    padding-left: 12px; }
   .mail_main input[type=submit] {
     background: #d45a45;
     color: white;
@@ -905,9 +904,7 @@ html {
   width: 100%;
   border-top: solid #d45a45 1px;
   border-bottom: solid #2a2a2a 5px;
-  background: #f6f6f6;
-  position: absolute;
-  bottom: 0px; }
+  background: #f6f6f6; }
   .mail_bot p {
     text-align: center;
     margin: 0; }

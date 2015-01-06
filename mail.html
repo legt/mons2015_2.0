@@ -8,6 +8,52 @@
 	<script type="text/javascript"	src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/listBatiment.js"></script>
+	<script>
+
+		
+		function getWindowHeight() {
+			var windowHeight = 0;
+			if (typeof(window.innerHeight) == 'number') {
+				windowHeight = window.innerHeight;
+			}
+			else {
+				if (document.documentElement && document.documentElement.clientHeight) {
+					windowHeight = document.documentElement.clientHeight;
+				}
+				else {
+					if (document.body && document.body.clientHeight) {
+						windowHeight = document.body.clientHeight;
+					}
+				}
+			}
+			return windowHeight;
+		}
+		function setFooter() {
+			if (document.getElementById) {
+				var windowHeight = getWindowHeight();
+				if (windowHeight > 0) {
+					var contentHeight = document.getElementById('content').offsetHeight;
+					var footerElement = document.getElementById('footer');
+					console.log(contentHeight);
+					var footerHeight  = footerElement.offsetHeight;
+					if (windowHeight - (contentHeight + footerHeight) >= 0) {
+						footerElement.style.position = 'relative';
+						footerElement.style.top = (windowHeight - (contentHeight + footerHeight)) + 'px';
+					}
+					else {
+						footerElement.style.position = 'static';
+					}
+				}
+			}
+		}
+		window.onload = function() {
+			setFooter();
+		}
+		window.onresize = function() {
+			setFooter();
+		}
+		
+		</script>
 </head>
 <body>
 <div class="container">
@@ -41,31 +87,32 @@
 		</div>
 	</div>
 	<div class="contenu_mail">
-		<div class="mail_top">
-			<p><span>" Abonnez-vous à notre Newsletter "</span><img src="img/mail.png" alt="icone mail"></p>
+		<div id="content">
+			<div class="mail_top">
+				<p><span>" Abonnez-vous à notre Newsletter "</span><img src="img/mail.png" alt="icone mail"></p>
+			</div>
+
+			<div class="mail_main">
+				<form action="traitement.php" method="get">
+
+					<p>
+						<label for="nom">Nom: <br>
+							<input type="text" id="nom" name="nom" placeholder="Nom">
+						</label>
+					</p>
+
+					<p>
+						<label for="Email">Email: <br>
+							<input type="text" id="Email" name="Email" placeholder="Email">
+						</label>
+					</p>
+					<p>
+						<input type="submit" value="newsletter">
+					</p>
+				</form>
+			</div>
 		</div>
-
-		<div class="mail_main">
-			<form action="traitement.php" method="get">
-
-				<p>
-					<label for="nom">Nom: <br>
-						<input type="text" id="nom" name="nom" placeholder="Nom">
-					</label>
-				</p>
-
-				<p>
-					<label for="Email">Email: <br>
-						<input type="text" id="Email" name="Email" placeholder="Email">
-					</label>
-				</p>
-				<p>
-					<input type="submit" value="newsletter">
-				</p>
-			</form>
-		</div>
-
-		<div class="mail_bot">
+		<div class="mail_bot" id="footer">
 			<p>
 				<img src="img/sponsor/wallonie.png" alt="logo wallonie">
 				<img src="img/sponsor/eu_culture.png" alt="logo capitale européenne de la culture">
