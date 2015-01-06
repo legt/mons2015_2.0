@@ -31,7 +31,7 @@ html{
 		height: 210px;
 		position: absolute;
 		width: 100%;
-		margin-top: -210px;
+		margin-top: -210px!important;
 		top: 100%;
 }
 .contenu_active{
@@ -84,9 +84,9 @@ html{
 		height: 48px;
 		width: 100%;
 		position: absolute;
-		bottom: 0;
+		bottom: 0!important;
 		left: 0;
-		z-index: 1000;
+		z-index: 2000;
 		clear: both;
 
 		.button_champs{
@@ -128,8 +128,8 @@ html{
 }
 
 .contenu_propos {
-	position: absolute;
-	top: 348px;
+	position: relative;
+    top: 398px;
 	margin: 0;
 	padding: 24px;
 	background-color: white !important;
@@ -181,9 +181,6 @@ html{
 	background-color: $red;
 }
 
-	.contenu_propos{
-		top: 448px;
-	}
 	.contenu_info{
 		float: right;
 		margin-top: 45px;
