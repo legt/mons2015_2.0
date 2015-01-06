@@ -878,7 +878,7 @@ html {
   position: relative;
   min-height: 100%;
   margin: 0 auto;
-  padding-bottom: 150px; }
+  padding-bottom: 100px; }
 
 .mail_main {
   font-family: 'Roboto', sans-serif;
@@ -934,7 +934,7 @@ html {
       display: none; } }
 @media screen and (min-width: 960px) {
   .contenu_mail {
-    margin-left: 305px; }
+    margin-left: 309px; }
 
   .contenu_main {
-    margin-left: 305px; } }
+    margin-left: 309px; } }
