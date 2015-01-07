@@ -7,7 +7,17 @@ var listBat = {
 		 "Mail":"maisonfolie@lemanege-mons.be",
 		 "Site web":"www.maisonfoliemons.be",
 		 "lat":"50.455689",
-		 "long":"3.959263"
+		 "long":"3.959263",
+		 "architecte":"Atelier d’Architecture Matador ",
+		 "info_architecte":"(Mons-Bruxelles, B.)",
+		 "chapeau":"La Maison Folie de Mons, à l’instar du Palais de Tokyo, de l’Espace Lu à Nantes ou encore de la Condition Publique à Roubaix, n’a pas le souci de paraître mais seulement celui d’être au plus près de ceux qui l’habitent.",
+		 "paragraphe":"",
+		 "Maître d’ouvrage ":"Ville de Mons, cofinancée par le Ministère de la Communauté française Wallonie-Bruxelles, Service des Infrastructures culturelles, et l’Union Européenne – Fonds FEDER",
+		 "pt_img":"",
+		 "pt_titre":"",
+		 "pt_paragraphe":""
+
+
 		},
 		{"nom":"Le Manège.Mons",
 		 "adresse":"Rue des Soeurs Noires 4/A",

@@ -16,6 +16,7 @@ $(function closeMenu() {
 var contenuSelect = 0;
 
 
+
 $(function clickApropos() {
 	$("#button_Apropos").click(function(e) {
 		e.preventDefault;
@@ -28,6 +29,8 @@ $(function clickApropos() {
 							contenuSelect = 0;
 							$('#Apropos').hide();
 						  $('#Pinteret').hide();
+						  
+
 						}else{
 							$('#Apropos').show();
 							$('#Pinteret').hide();
@@ -39,7 +42,13 @@ $(function clickApropos() {
 				$('#Pinteret').hide();
 				contenuSelect = 1;
 			 };
+			
+			    $('.return_maps').css( "display", "block" );
+			  
+
     });
+
+
 });
 
 
@@ -70,6 +79,8 @@ $(function clickPinteret() {
 		
 	});
 });
+
+
  // slise 
 var listImg_slider = ["img/15213124199_8907cf9d3a_o.jpg","img/15213201559_b2e7086112_o.jpg","img/15213216999_ff1e0ceefa_o.jpg"];
 

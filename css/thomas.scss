@@ -1,3 +1,18 @@
+.return_maps{
+	padding: 24px;
+	font-size: 16px;
+	border: 2px solid $red;
+	border-radius: 2px;
+	position: absolute;
+	bottom: 260px;
+	left: 50%;
+	margin-left: -120px;
+	color:$red;
+	width: 240px;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
 .container{
 	position: relative;
 	min-height: 100%;
@@ -90,7 +105,12 @@
 }
 
 @media screen and (min-width:960px){
-		
+		.mail_top{
+			height: 390px;
+			p{
+				line-height: 390px;
+			}
+		}
 		.contenu_mail{
 			margin-left:309px;
 	}
