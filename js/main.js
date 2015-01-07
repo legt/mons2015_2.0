@@ -125,15 +125,13 @@ function click_nav_monument() {
 
 		var val_click = Number($(this).attr('id').slice(4));
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>');
-		$('.header_contenu_info_rep').html(listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail);
+		$('.header_contenu_info_rep').html(listBat.monument[val_click].adresse + ' - ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail);
 		
-		
-		var larg_page = (document.body.clientWidth);
-//		console.log(larg_page);
-			if(larg_page<=960) {
-			$('.nav').hide("slide", {direction: "right"}, 500);
-			};
-
+//var larg_page = (document.body.clientWidth);
+////		console.log(larg_page);
+if(window.matchMedia("(min-width: 960px)").matches) {
+			
+			}else{$('.nav').hide("slide", {direction: "right"}, 500);};
 	});
 };
 
