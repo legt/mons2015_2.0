@@ -64,9 +64,13 @@ function clickApropos() {
 			$('#Pinteret').hide();
 			contenuSelect = 1;
 		};
-
+						
+			    $('.return_maps').css( "display", "block" );
 	});
-};
+
+		
+
+	};
 
 function clickPinteret() {
 	$("#button_Pinteret").click(function (e) {
@@ -91,9 +95,10 @@ function clickPinteret() {
 			contenuSelect = 2;
 		};
 
-
+		$('.return_maps').css( "display", "block" );
 
 	});
+	
 };
 
 
@@ -128,6 +133,7 @@ function click_nav_monument() {
 
 
 // slise 
+
 
 var listImg_slider = ["img/15213124199_8907cf9d3a_o.jpg", "img/15213201559_b2e7086112_o.jpg", "img/15213216999_ff1e0ceefa_o.jpg"];
 

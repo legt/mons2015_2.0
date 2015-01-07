@@ -104,6 +104,75 @@
 .nav_icone{
 	display: none;
 }
+@media screen and (min-width:480px){
+	.nav{
+	 	overflow: scroll;
+	 	background-color: #343434;
+	}
+	.nav_icone{
+		display: block;
+		margin: 8px 48px;
+		padding: 0;
+
+	}
+	.nav_top{
+		height: 110px;
+		line-height: 110px;
+		background-color: #343434;
+		font-size: 14px;
+
+
+		span{
+			margin-left: 40px;
+			
+		}
+	}
+	.nav_top:first-child{
+		border-top: 1px solid #4e4e4e;
+	}
+	.nav_top:hover, .nav_active{
+		background-color: $grisfonce;
+		}
+
+	.li_bottom {
+		display: inline-block;
+		width: 25%;
+		border-right: 0px;
+
+	}
+
+	.nav_bottom{
+		padding: 55px;
+	}
+	.ul_bottom {
+		position: static;
+		bottom: 0;
+		height: 110px;
+		border-top: 0px;
+		background-color: #343434;
+		
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:960px){
 
 	.hamburger{
@@ -112,7 +181,9 @@
 
 	.nav{
 		float: left;
+		overflow: hidden;
 		position: fixed;
+		
 		display: block;
 		width: 310px;
 		background-color: #343434;
@@ -183,6 +254,9 @@
 	.nav_bottom {
 		margin-top: 25px;
 
+		padding:0px;
+	
+
 	}
 	.closeMenu{
 		display: none;
@@ -191,9 +265,12 @@
 		width: 23px;
 		height: 46px;
 		background: url(../img/nav_fleche.png);
-		margin-left: 305px;
+		margin-left: 305px!important;
+		display: block;
+		z-index: 6000;
 
 	}
+
 	#container{
 		position: relative;
 	}
