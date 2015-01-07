@@ -20,6 +20,7 @@ function initialize() {
             mapOptions);
 		
 	var i = 0;
+
 	
 //POINTEUR+INFO
 function pointeur(i){
@@ -50,9 +51,16 @@ function pointeur(i){
   });	
 		google.maps.event.addListener(marker, 'click', function() {
 		$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>');
+		$('.header_contenu_info_rep').html(listBat.monument[i].adresse + ', ' + listBat.monument[i].Commune + '<br>' + listBat.monument[i].Telephone + '<br>' + listBat.monument[i].Mail);
+		$('.contenu_propos_regular').html(listBat.monument[i].architecte);
+		$('.contenu_propos_small').html(listBat.monument[i].info_architecte);
+		$('.contenu_propos_red').html(listBat.monument[i].chapeau);
+		$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
+		$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
   });
-    
+    // marker.setCenter(map.getCenter());
 	marker.setMap(map);
+
 	
 };
 	
