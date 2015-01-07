@@ -27,14 +27,30 @@ function pointeur(i){
 	console.log(listBat.monument[i].lat+','+listBat.monument[i].long);
  
 	var imgIcone = 'img/pointer.png';
-  
+	var contentString = '<div style="color:#d45a45; text-align:center; font-weight:500; min-width:200px; margin-left:24px;">'+listBat.monument[i].nom+'</div>';
+	var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  		});
+
+	console.log(contentString);
 	var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
 			icon: imgIcone,
+			 title: 'titre par default'
+
+
       
+  		});
+	google.maps.event.addListener(marker, 'mouseover', function() {
+		if (typeof( window.infoopened ) != 'undefined')infoopened.close();
+		infowindow.open(map,marker);
+		infoopened = infowindow;
+  });	
+		google.maps.event.addListener(marker, 'click', function() {
+		$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>');
   });
-	
+    
 	marker.setMap(map);
 	
 };
