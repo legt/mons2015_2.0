@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<div class="menu_container">
+<div class="menu_container" id="monument_template">
 		<div class="hamburger"><img src="img/hamburger_w.png" alt="toggleMenu" width="28px" height="28px"></div>
 			<div class="nav">
 				<a href="#"><img src="img/close.png" alt="" class="closeMenu" ></a>
@@ -21,16 +21,7 @@
 				 	<div class="nav_fleche"></div>
 				</div>
 				<ul class="ul_top">
-					<li><a class="nav_top" id="active"href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA MAISON FOLIE</span></a></li>
-					<li><a class="nav_top" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE MANèGE.MONS</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE DéPôT DES OEUVRES D’ART</span></a></li>
-					<li><a class="nav_top " href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>les ABATOIRES</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>ARSONIC</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE CARRé DES ARTS</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LE bam</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>Le corps de ville</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA GARE</span></a></li>
-					<li><a class="nav_top nav_none" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>LA Fondation mons 2015</span></a></li>
+					<li></li>
 				</ul>
 			<ul class="ul_bottom">
 				<li class="li_bottom"><a class="nav_bottom" href="index.html" id="home"></a></li>
@@ -44,10 +35,11 @@
 	<section class="maps" id="maps"></section>
 	<div class="contenu slide_contenu">
 		<div class="mask" ></div>
-			<section class="header_contenu">
-				<div class="titre_h2">
-				<h2>La maison en folie</h2>
-				</div>
+			<section class="header_contenu" id="target_click_titre">
+					<div class="return_maps" id="return_maps">RETOUR A LA CARTE</div>
+							<div class="titre_h2">
+									
+					</div>
 
 				<article class="contenu_info">
 
@@ -56,15 +48,10 @@
 						Téléphone <br> 	
 						E-mail 	
 
-						<p class="header_contenu_info_rep">
-							Grand Place, 7000 Mons <br>
-							+32(0)65 39 59 39 <br>
-							tickets@lemanege-mons.be
-						</p>
+					<p class="header_contenu_info_rep"></p>
 					</p>
 
 				</article>
-
 			</section>
 
 			<section class="contenu_top">
@@ -178,9 +165,10 @@
 			</section>
 		</div>
 	</div>
-	
-	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+
 	
 </body>
 </html>
