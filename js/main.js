@@ -9,6 +9,7 @@
 		slider();
 		generate_nom_nav();
 		click_nav_monument();
+		return_maps();
 
 	});
 
@@ -47,13 +48,9 @@ function clickApropos() {
 		//console.log('Click a propos');
 
 		if ($(".slide_contenu").hasClass('contenu_active')) {
-
-			if (contenuSelect == 1) {
-				$('.slide_contenu').toggleClass('contenu_active contenu');
-				contenuSelect = 0;
-				$('#Apropos').hide();
-				$('#Pinteret').hide();
-			} else {
+			
+			
+			if (contenuSelect != 1) {
 				$('#Apropos').show();
 				$('#Pinteret').hide();
 				contenuSelect = 1;
@@ -64,8 +61,9 @@ function clickApropos() {
 			$('#Pinteret').hide();
 			contenuSelect = 1;
 		};
-						
-			    $('.return_maps').css( "display", "block" );
+			
+		$('.return_maps').css("display","block");
+			    
 	});
 
 		
@@ -76,17 +74,14 @@ function clickPinteret() {
 	$("#button_Pinteret").click(function (e) {
 		e.preventDefault;
 		//console.log('Click a propos');
-
+		$('.return_maps').css( "display", "block" );
 		if ($(".slide_contenu").hasClass('contenu_active')) {
-			if (contenuSelect == 2) {
-				$('.slide_contenu').toggleClass('contenu_active contenu');
-				contenuSelect = 0;
-				$('#Apropos').hide();
-				$('#Pinteret').hide();
-			} else {
-				$('#Apropos').hide();
-				$('#Pinteret').show();
-				contenuSelect = 2;
+			
+
+			if (contenuSelect != 2) {
+					$('#Apropos').hide();
+					$('#Pinteret').show();
+					contenuSelect = 2;
 			};
 		} else {
 			$('.slide_contenu').toggleClass('contenu_active contenu');
@@ -94,13 +89,22 @@ function clickPinteret() {
 			$('#Pinteret').show();
 			contenuSelect = 2;
 		};
-
-		$('.return_maps').css( "display", "block" );
-
+		
+		$('.return_maps').css("display","block");
+		
 	});
 	
 };
 
+function return_maps(){
+	$('.return_maps').click(function(){
+				$('.slide_contenu').toggleClass('contenu_active contenu');
+				contenuSelect = 0;
+				$('#Apropos').hide();
+				$('#Pinteret').hide();
+				$('.return_maps').hide();
+	});
+};
 
 function generate_nom_nav() {
 
@@ -108,7 +112,7 @@ function generate_nom_nav() {
 
 	for (var i = 0; i < val_total_monument; i++) {
 
-		$('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><span>' + listBat.monument[i].nom + '</span><img src="img/nav_test.png" class="nav_icone" alt=""></a>');
+		$('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>' + listBat.monument[i].nom + '</span></a>');
 
 	}
 
@@ -120,13 +124,15 @@ function click_nav_monument() {
 	$('.nav_top').click(function () {
 
 		var val_click = Number($(this).attr('id').slice(4));
-		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>');
 		$('.header_contenu_info_rep').html(listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail);
-		$('.nav').hide("slide", {
-			direction: "right"
-		}, 500);
-
+		
+		
+		var larg_page = (document.body.clientWidth);
+//		console.log(larg_page);
+			if(larg_page<=960) {
+			$('.nav').hide("slide", {direction: "right"}, 500);
+			};
 
 	});
 };
@@ -185,3 +191,4 @@ function slider() {
 
 	});
 };
+

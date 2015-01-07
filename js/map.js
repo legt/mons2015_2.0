@@ -25,7 +25,7 @@ function initialize() {
 function pointeur(i){
 	// for(i=0; i<listBat.monument.length; i++) {listBat.monument[i]};
 	var myLatlng = new google.maps.LatLng(listBat.monument[i].lat,listBat.monument[i].long);
-	console.log(listBat.monument[i].lat+','+listBat.monument[i].long);
+//	console.log(listBat.monument[i].lat+','+listBat.monument[i].long);
  
 	var imgIcone = 'img/pointer.png';
 	var contentString = '<div style="color:#d45a45; text-align:center; font-weight:500; min-width:200px; margin-left:24px;">'+listBat.monument[i].nom+'</div>';
@@ -33,7 +33,7 @@ function pointeur(i){
       content: contentString
   		});
 
-	console.log(contentString);
+//	console.log(contentString);
 	var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
