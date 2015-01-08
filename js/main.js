@@ -140,7 +140,7 @@ function click_nav_monument() {
 
         
         listImg_slider =listBat.monument[val_click].img_1;
-		
+		$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
 		var larg_page = (document.body.clientWidth);
 
 			if(larg_page<=960) {
@@ -170,7 +170,7 @@ console.log(listImg_slider);
 function slider() {
 	//console.log(listImg_slider);
 	$('.slider_container_img').append('<div class="slider_img"></div>');
-	$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
+	
 	for (i = 0; i < listImg_slider.length; i++) {
 		//console.log('i est égale a'+i);
 		$('.slider_bullets').append('<span id="bullet_' + i + '"></span>');
