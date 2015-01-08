@@ -1,14 +1,15 @@
 (function ($) {
 	$('document').ready(function () {
 
-		console.log('poke');
+		// console.log('poke');
 		toggleMenu();
 		closeMenu();
 		clickApropos();
 		clickPinteret();
-		slider();
 		generate_nom_nav();
+		slider();
 		click_nav_monument();
+		return_maps();
 
 	});
 
@@ -47,13 +48,9 @@ function clickApropos() {
 		//console.log('Click a propos');
 
 		if ($(".slide_contenu").hasClass('contenu_active')) {
-
-			if (contenuSelect == 1) {
-				$('.slide_contenu').toggleClass('contenu_active contenu');
-				contenuSelect = 0;
-				$('#Apropos').hide();
-				$('#Pinteret').hide();
-			} else {
+			
+			
+			if (contenuSelect != 1) {
 				$('#Apropos').show();
 				$('#Pinteret').hide();
 				contenuSelect = 1;
@@ -64,8 +61,9 @@ function clickApropos() {
 			$('#Pinteret').hide();
 			contenuSelect = 1;
 		};
-						
-			    $('.return_maps').css( "display", "block" );
+			
+		$('.return_maps').css("display","block");
+			    
 	});
 
 		
@@ -76,17 +74,14 @@ function clickPinteret() {
 	$("#button_Pinteret").click(function (e) {
 		e.preventDefault;
 		//console.log('Click a propos');
-
+		$('.return_maps').css( "display", "block" );
 		if ($(".slide_contenu").hasClass('contenu_active')) {
-			if (contenuSelect == 2) {
-				$('.slide_contenu').toggleClass('contenu_active contenu');
-				contenuSelect = 0;
-				$('#Apropos').hide();
-				$('#Pinteret').hide();
-			} else {
-				$('#Apropos').hide();
-				$('#Pinteret').show();
-				contenuSelect = 2;
+			
+
+			if (contenuSelect != 2) {
+					$('#Apropos').hide();
+					$('#Pinteret').show();
+					contenuSelect = 2;
 			};
 		} else {
 			$('.slide_contenu').toggleClass('contenu_active contenu');
@@ -94,13 +89,22 @@ function clickPinteret() {
 			$('#Pinteret').show();
 			contenuSelect = 2;
 		};
-
-		$('.return_maps').css( "display", "block" );
-
+		
+		$('.return_maps').css("display","block");
+		
 	});
 	
 };
 
+function return_maps(){
+	$('.return_maps').click(function(){
+				$('.slide_contenu').toggleClass('contenu_active contenu');
+				contenuSelect = 0;
+				$('#Apropos').hide();
+				$('#Pinteret').hide();
+				$('.return_maps').hide();
+	});
+};
 
 function generate_nom_nav() {
 
@@ -128,9 +132,16 @@ function click_nav_monument() {
 		$('.contenu_propos_red').html(listBat.monument[val_click].chapeau);
 		$('.contenu_propos_p').html(listBat.monument[val_click].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[val_click].Maître_douvrage);
-		$('.nav').hide("slide", {
-			direction: "right"
-		}, 500);
+		
+
+
+		
+		
+		var larg_page = (document.body.clientWidth);
+
+			if(larg_page<=960) {
+			$('.nav').hide("slide", {direction: "right"}, 500);
+			};
 
 
 	});
@@ -139,8 +150,10 @@ function click_nav_monument() {
 
 // slise 
 
+var listImg_slider = listBat.monument[val_click].img_1;
+console.log(listImg_slider);
 
-var listImg_slider = ["img/15213124199_8907cf9d3a_o.jpg", "img/15213201559_b2e7086112_o.jpg", "img/15213216999_ff1e0ceefa_o.jpg"];
+
 
 function slider() {
 	//console.log(listImg_slider);
@@ -149,6 +162,7 @@ function slider() {
 	for (i = 0; i < listImg_slider.length; i++) {
 		//console.log('i est égale a'+i);
 		$('.slider_bullets').append('<span id="bullet_' + i + '"></span>');
+		
 	};
 
 	$('.slider_bullets span').first().addClass('is_active');
@@ -190,3 +204,4 @@ function slider() {
 
 	});
 };
+

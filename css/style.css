@@ -525,8 +525,8 @@ a img {
 
   .nav {
     float: left;
-    overflow: hidden;
     position: fixed;
+    overflow: scroll;
     display: block;
     width: 310px;
     background-color: #343434; }
@@ -570,7 +570,7 @@ a img {
 
   .ul_bottom {
     width: 310px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 110px;
     border-top: 0px;
