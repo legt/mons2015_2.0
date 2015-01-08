@@ -126,13 +126,13 @@ function click_nav_monument() {
 		var val_click = Number($(this).attr('id').slice(4));
 		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-		$('.header_contenu_info_rep').html('<span>' + listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(300).animate({opacity:1, marginTop:0});
+		$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].Commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.contenu_propos_regular').html(listBat.monument[val_click].architecte);
 		$('.contenu_propos_small').html(listBat.monument[val_click].info_architecte);
 		$('.contenu_propos_red').html(listBat.monument[val_click].chapeau);
 		$('.contenu_propos_p').html(listBat.monument[val_click].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[val_click].Maître_douvrage);
-		$('.header_contenu_info').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+		$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 
 
 		
