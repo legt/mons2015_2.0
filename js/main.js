@@ -118,12 +118,14 @@ function generate_nom_nav() {
 
 };
 
+var listImg_slider = listBat.monument[0].img_1;
 
 function click_nav_monument() {
 
 	$('.nav_top').click(function () {
 
-		var val_click = Number($(this).attr('id').slice(4));
+        var val_click = Number($(this).attr('id').slice(4));
+        
 		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].Commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
@@ -135,7 +137,9 @@ function click_nav_monument() {
 		$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 
 
-		
+
+        
+        listImg_slider =listBat.monument[val_click].img_1;
 		
 		var larg_page = (document.body.clientWidth);
 
@@ -156,10 +160,9 @@ if(window.matchMedia("(min-width: 960px)").matches) {
 	});
 };
 
-
 // slise 
 
-var listImg_slider = listBat.monument[0].img_1;
+
 console.log(listImg_slider);
 
 
@@ -183,20 +186,20 @@ function slider() {
 
 	// Slide automatique			
 
-	setInterval(function () {
-		var $next = $("span.is_active").next();
-		img_slider.fadeOut(1000, function () {
-			$("span.is_active").removeClass("is_active");
-			img_slider.css('background-image', 'url(' + listImg_slider[i+++1] + ')');
-			img_slider.fadeIn(1000);
+	// setInterval(function () {
+	// 	var $next = $("span.is_active").next();
+	// 	img_slider.fadeOut(1000, function () {
+	// 		$("span.is_active").removeClass("is_active");
+	// 		img_slider.css('background-image', 'url(' + listImg_slider[i+++1] + ')');
+	// 		img_slider.fadeIn(1000);
 
-			if (i == listImg_slider.length) {
-				i = 0;
-				$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
-			};
-			$("span#bullet_" + i).addClass("is_active");
-		});
-	}, 5000);
+	// 		if (i == listImg_slider.length) {
+	// 			i = 0;
+	// 			$('.slider_img').css('background-image', 'url(' + listImg_slider + ')');
+	// 		};
+	// 		$("span#bullet_" + i).addClass("is_active");
+	// 	});
+	// }, 5000);
 
 	// Changement d'image au click sur bulle
 

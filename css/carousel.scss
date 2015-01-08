@@ -30,10 +30,10 @@ $slider-height: 350px;
     text-align: center;
     span {
       display: inline-block;
-      border-radius: 25px;
+      border-radius: 50px;
       background-color: white;
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
       position: relative;
       cursor: pointer;
       & + span {
