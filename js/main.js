@@ -144,13 +144,22 @@ function click_nav_monument() {
 			};
 
 
+
+		$('.header_contenu_info_rep').html(listBat.monument[val_click].adresse + ' - ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail);
+		
+//var larg_page = (document.body.clientWidth);
+////		console.log(larg_page);
+if(window.matchMedia("(min-width: 960px)").matches) {
+			
+			}else{$('.nav').hide("slide", {direction: "right"}, 500);};
+
 	});
 };
 
 
 // slise 
 
-var listImg_slider = listBat.monument[val_click].img_1;
+var listImg_slider = listBat.monument[0].img_1;
 console.log(listImg_slider);
 
 
