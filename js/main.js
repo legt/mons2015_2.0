@@ -132,7 +132,7 @@ function click_nav_monument() {
 		$('.contenu_propos_red').html(listBat.monument[val_click].chapeau);
 		$('.contenu_propos_p').html(listBat.monument[val_click].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[val_click].Maître_douvrage);
-		
+		$('.header_contenu_info').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 
 
 		

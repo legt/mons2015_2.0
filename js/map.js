@@ -57,6 +57,7 @@ function pointeur(i){
 		$('.contenu_propos_red').html(listBat.monument[i].chapeau);
 		$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
+		$('.header_contenu_info').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
   });
     // marker.setCenter(map.getCenter());
 	marker.setMap(map);
