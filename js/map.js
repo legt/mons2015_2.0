@@ -58,6 +58,8 @@ function pointeur(i){
 		$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
 		$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+  		listImg_slider =listBat.monument[i].img_1;
+		$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
   });
     // marker.setCenter(map.getCenter());
 	marker.setMap(map);
