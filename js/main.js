@@ -118,12 +118,14 @@ function generate_nom_nav() {
 
 };
 
+var listImg_slider = listBat.monument[0].img_1;
 
 function click_nav_monument() {
 
 	$('.nav_top').click(function () {
 
-		var val_click = Number($(this).attr('id').slice(4));
+        var val_click = Number($(this).attr('id').slice(4));
+        
 		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.header_contenu_info_rep').html('<span>' + listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br>' + listBat.monument[val_click].Telephone + '<br>' + listBat.monument[val_click].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(300).animate({opacity:1, marginTop:0});
@@ -135,7 +137,9 @@ function click_nav_monument() {
 		$('.header_contenu_info').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 
 
-		
+
+        
+        listImg_slider =listBat.monument[val_click].img_1;
 		
 		var larg_page = (document.body.clientWidth);
 
@@ -156,10 +160,9 @@ if(window.matchMedia("(min-width: 960px)").matches) {
 	});
 };
 
-
 // slise 
 
-var listImg_slider = listBat.monument[0].img_1;
+
 console.log(listImg_slider);
 
 

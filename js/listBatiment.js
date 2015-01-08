@@ -6,7 +6,7 @@ var listBat = {
 		 "commune":"Mons",
 		 "Telephone":"+32 65 39 59 12",
 		 "Mail":"maisonfolie@lemanege-mons.be",
-		 "img_1":["img/15213124199_8907cf9d3a_o.jpg", "img/15213201559_b2e7086112_o.jpg", "img/15213216999_ff1e0ceefa_o.jpg"],
+		 "img_1":["img/15213124199_8907cf9d3a_o.jpg","img/15213201559_b2e7086112_o.jpg", "img/15213216999_ff1e0ceefa_o.jpg"],
 		 "lat":"50.455689",
 		 "long":"3.959263",
 		 "architecte":"Atelier d’Architecture Matador ",
