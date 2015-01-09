@@ -7,6 +7,7 @@ var listBat = {
 		 "Telephone":"+32 65 39 59 12",
 		 "Mail":"maisonfolie@lemanege-mons.be",
 		 "img_1":["img/15213124199_8907cf9d3a_o.jpg","img/15213201559_b2e7086112_o.jpg", "img/15213216999_ff1e0ceefa_o.jpg"],
+		 "img":"nav_1.png",
 		 "lat":"50.455689",
 		 "long":"3.959263",
 		 "architecte":"Atelier d’Architecture Matador ",
@@ -21,92 +22,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -119,6 +138,7 @@ var listBat = {
 		 "Telephone":"065 39 98 00",
 		 "Mail":"tickets@lemanege-mons.be",
 		 "img_1":["img/manege_1.jpg", "img/manege_2.jpg","img/manege_3.jpg"],
+		 "img":"nav_2.png",
 		 "Site web":"www.lemanege.com",
 		 "lat":"50.450324",
 		 "long":"3.951553",
@@ -134,92 +154,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -230,6 +268,7 @@ var listBat = {
 		 "Telephone":"",
 		 "Mail":"",
 		 "img_1":["img/depot_1.jpg", "img/depot_2.jpg", "img/depot_3.jpg"],
+		 "img":"nav_3.png",
 		 "Site web":"",
 		 "lat":"50.449285",
 		 "long":"3.953790",
@@ -245,92 +284,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -341,6 +398,7 @@ var listBat = {
 		 "Telephone":"+32 65 40 53 12",
 		 "Mail":"polemusueal@ville.mons.be",
 		 "img_1":["img/abattoir_1.jpg", "img/abattoir_2.jpg", "img/abattoir_3.jpg"],
+		 "img":"nav_4.png",
 		 "Site web":"www.abattoirs.mons.be",
 		 "lat":"50.449059",
 		 "long":"3.951980",
@@ -356,92 +414,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -452,6 +528,7 @@ var listBat = {
 		 "Telephone":"+32 65 39 59 39",
 		 "Mail":"",
 		 "img_1":["img/arsonic_1.jpg", "img/arsonic_2.jpg", ""],
+		 "img":"nav_5.png",
 		 "Site web":"http://www.mons2015.eu/fr/arsonic-inauguration",
 		 "lat":"50.459442",
 		 "long":"3.956172",
@@ -467,92 +544,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -563,6 +658,7 @@ var listBat = {
 		 "Telephone":"",
 		 "Mail":"esapv.mons@esapv.be",
 		 "img_1":["img/carre_1.jpg", "img/carre_2.jpg", "img/carre_3.jpg"],
+		 "img":"nav_6.png",
 		 "Site web":"http://www.esapv.be/",
 		 "lat":"50.449974",
 		 "long":"3.950840",
@@ -578,92 +674,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -674,6 +788,7 @@ var listBat = {
 		 "Telephone":"+32 65 40 53 30",
 		 "Mail":"polemusueal@ville.mons.be",
 		 "img_1":["img/bam_1.jpg", "img/bam_2.jpg", "img/bam_4.jpg"],
+		 "img":"nav_7.png",
 		 "Site web":"http://www.bam.mons.be/",
 		 "lat":"50.455548",
 		 "long":"3.952406",
@@ -689,92 +804,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -785,6 +918,7 @@ var listBat = {
 		 "Telephone":"+32 65 395912",
 		 "Mail":"maisonfolie@lemanege-mons.be",
 		 "img_1":["img/corps_1.jpg", "img/corps_2.jpg", "img/corps_3.jpg"],
+		 "img":"nav_8.png",
 		 "Site web":"",
 		 "lat":"50.459217",
 		 "long":"3.956827",
@@ -800,92 +934,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -896,6 +1048,7 @@ var listBat = {
 		 "Telephone":"+32 2 528 28 28",
 		 "Mail":"",
 		 "img_1":["img/gare_1.jpg", "img/gare_2.jpg", "img/gare_3.jpg"],
+		 "img":"nav_9.png",
 		 "Site web":"www.belgianrail.be",
 		 "lat":"50.456727",
 		 "long":"3.944703",
@@ -911,92 +1064,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]
@@ -1007,6 +1178,7 @@ var listBat = {
 		 "Telephone":"+32 65 36 20 15",
 		 "Mail":"",
 		 "img_1":["img/fondation_1.jpg", "img/fondation_2.jpg", "img/fondation_3.jpg"],
+		 "img":"nav_10.png",
 		 "Site web":"www.mons2015.eu",
 		 "lat":"50.458492",
 		 "long":"3.955646",
@@ -1022,92 +1194,110 @@ var listBat = {
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
-		 "distance":"100 m"
+		 "distance":"100 m",
+		 "logo":""
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
-		 "distance":"200 m"
+		 "distance":"200 m",
+		 "logo":""
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
-		 "distance":"300 m"
+		 "distance":"300 m",
+		 "logo":""
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
-		 "distance":"400 m"
+		 "distance":"400 m",
+		 "logo":""
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
-		 "distance":"500 m"
+		 "distance":"500 m",
+		 "logo":""
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
-		 "distance":"600 m"
+		 "distance":"600 m",
+		 "logo":""
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
-		 "distance":"700 m"
+		 "distance":"700 m",
+		 "logo":""
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
-		 "distance":"800 m"
+		 "distance":"800 m",
+		 "logo":""
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
-		 "distance":"900 m"
+		 "distance":"900 m",
+		 "logo":""
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
-		 "distance":"1000 m"
+		 "distance":"1000 m",
+		 "logo":""
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
-		 "distance":"1100 m"
+		 "distance":"1100 m",
+		 "logo":""
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
-		 "distance":"1200 m"
+		 "distance":"1200 m",
+		 "logo":""
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
-		 "distance":"1300 m"
+		 "distance":"1300 m",
+		 "logo":""
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
-		 "distance":"1400 m"
+		 "distance":"1400 m",
+		 "logo":""
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
-		 "distance":"1500 m"
+		 "distance":"1500 m",
+		 "logo":""
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
-		 "distance":"1600 m"
+		 "distance":"1600 m",
+		 "logo":""
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
-		 "distance":"1700 m"
+		 "distance":"1700 m",
+		 "logo":""
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
-		 "distance":"1800 m"
+		 "distance":"1800 m",
+		 "logo":""
 		}
 		
 	]

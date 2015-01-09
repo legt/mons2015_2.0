@@ -35,10 +35,10 @@ var menu = {
 
 	   for (var i = 0; i < val_total_monument; i++) {
 
-            $('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><img src="img/nav_test.png" class="nav_icone" alt=""><span>' + listBat.monument[i].nom + '</span></a>');
+            $('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><img src="img/'+ listBat.monument[i].img +'" class="nav_icone" alt=""><span>' + listBat.monument[i].nom + '</span></a>');
 
 	   }
-
+	   
     }
 };
 
@@ -133,13 +133,13 @@ var btn_click = {
 		$('.header_contenu_emploi').css("display","none");
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
-		$('.maps_black').css("display","none");
+		
 
 		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
 		
 		for (var i = 0; i < val_total_restaurant; i++) {
 
-            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/logo_mcdo.png" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
+            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
 
 	   	}
 

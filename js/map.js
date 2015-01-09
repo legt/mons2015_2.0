@@ -51,7 +51,7 @@ function pointeur(i){
   });	
 		google.maps.event.addListener(marker, 'click', function() {
 		$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-		$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].Commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+		$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.contenu_propos_regular').html(listBat.monument[i].architecte);
 		$('.contenu_propos_small').html(listBat.monument[i].info_architecte);
 		$('.contenu_propos_red').html(listBat.monument[i].chapeau);
