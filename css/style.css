@@ -617,6 +617,14 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.maps_black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  position: absolute;
+  top: 0; }
+
 .maps {
   width: 100%;
   height: 100%;
@@ -636,7 +644,8 @@ html {
   position: absolute;
   width: 100%;
   margin-top: -210px !important;
-  top: 100%; }
+  top: 100%;
+  z-index: 3; }
 
 .contenu_active {
   height: 210px;
@@ -677,7 +686,7 @@ html {
     float: right; }
 
 .contenu_top {
-  background-color: white;
+  background-color: #d45a45;
   height: 48px;
   width: 100%;
   position: absolute;
@@ -693,9 +702,24 @@ html {
     font-weight: 400;
     line-height: 48px;
     text-align: center;
-    text-decoration: underline; }
+    text-decoration: underline;
+    display: none; }
   .contenu_top .button_champs:first-child {
     border-right: 1px solid #d45a45; }
+
+.header_contenu_emploi {
+  color: #FFF;
+  font-size: 18px;
+  width: 430px;
+  font-weight: 300; }
+  .header_contenu_emploi p {
+    margin: 0;
+    margin-bottom: 36px; }
+  .header_contenu_emploi .hand {
+    position: absolute;
+    z-index: 10000;
+    right: 0;
+    top: 0; }
 
 .img_monument {
   height: 195px;
