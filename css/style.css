@@ -620,7 +620,7 @@ html {
 .maps_black {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   position: absolute;
   top: 0; }
@@ -719,7 +719,8 @@ html {
     position: absolute;
     z-index: 10000;
     right: 0;
-    top: 0; }
+    top: 0;
+    cursor: pointer; }
 
 .img_monument {
   height: 195px;
@@ -735,7 +736,8 @@ html {
   display: none; }
 
 .slide_contenu {
-  transition: top 1s; }
+  transition: top 1s;
+  z-index: 4; }
 
 .contenu_propos {
   position: relative;
