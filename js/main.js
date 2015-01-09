@@ -51,8 +51,13 @@ var btn_click = {
         $("#button_Pinteret").click(btn_click.clickPinteret);
         $('.return_maps').click(btn_click.return_maps);
         $('.nav_top').click(btn_click.click_nav_monument);
+        $('.hand').click(btn_click.hand);
     },
     
+    hand : function(e){
+    	$('.maps_black').css("display","none");
+    },
+
     clickApropos : function (e) {
 		e.preventDefault;
         var contenuSelect = 0;
@@ -74,6 +79,7 @@ var btn_click = {
 		};
 			
 		$('.return_maps').css("display","block");
+		$('.maps_black').css("display","block");
 			    
 	},
     
@@ -98,6 +104,7 @@ var btn_click = {
 		};
 		
 		$('.return_maps').css("display","block");
+		$('.maps_black').css("display","block");
 		
 	},
     
@@ -107,8 +114,9 @@ var btn_click = {
 				$('#Apropos').hide();
 				$('#Pinteret').hide();
 				$('.return_maps').hide();
+				$('.maps_black').css("display","none");
 	},
-    
+   
     click_nav_monument : function () {
 
         var val_click = Number($(this).attr('id').slice(4));
@@ -125,6 +133,8 @@ var btn_click = {
 		$('.header_contenu_emploi').css("display","none");
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
+		$('.maps_black').css("display","none");
+
 		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
 		
 		for (var i = 0; i < val_total_restaurant; i++) {
