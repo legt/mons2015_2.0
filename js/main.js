@@ -53,7 +53,6 @@ var menu = {
     	var val_total_monument = listBat.monument.length;
     	for (i = 0; i < val_total_monument; i++) {
     		$(this).css("background","url(../"+ listBat.monument[i].img_1[0] +" )center").addClass('nav_active');
-    		if ()
     	}
     }
 
