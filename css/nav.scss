@@ -51,7 +51,7 @@
 .hamburger {
 	position: fixed;
 	width: 100%;
-	z-index: 2000;
+	z-index: 10000000;
 	display: block;
 	img{
 		position:fixed;
@@ -183,19 +183,21 @@
 		float: left;
 		
 		position: fixed;
-		overflow: scroll;
+		overflow: hidden;
 		display: block;
 		width: 310px;
 		background-color: #343434;
 	}
 	.nav_icone{
+		display: none;
+
+	}
+	.nav_icone:hover{
 		display: block;
-		margin: 8px 24px;
-		padding: 0;
 	}
 	.nav_top{
-		height: 110px;
-		line-height: 110px;
+		height: 40px;
+		line-height: 40px;
 		border-right: 0;
 		border-left: solid 5px #bbbbbb;
 		background-color: #343434;
@@ -204,8 +206,13 @@
 
 		span{
 			text-align: left;
-			margin-left: 80px;
+			margin-left: 0px;
 		}
+	}
+	.nav_top:hover{
+		height: 110px;
+		line-height: 110px;
+		transition: 0.4s;
 	}
 	.nav_top:first-child{
 		border-top: 1px solid #4e4e4e;
@@ -217,16 +224,16 @@
 		}
 	.nav_logo{
 		display: block;
-		height: 280px;
+		height: 166px;
 		border-left: solid #bbbbbb 5px;
-		padding-top: 24px;
 		p{
 			margin: 0;
 
 		}
 
 		img{
-			margin: 18px 0px 0px 50px;
+			width: 175px;
+			margin: -5px 0px 0px 68px;
 		}
 	}
 	.ul_top{
@@ -236,9 +243,9 @@
 		width: 310px;
 		position: fixed;
 		bottom: 0;
-		height: 110px;
+		height: 85px;
 		border-top: 0px;
-		background-color: #343434;
+		background-color: rgba(0,0,0,0);
 		border-left: solid 5px #bbbbbb;
 	}
 	.li_bottom {

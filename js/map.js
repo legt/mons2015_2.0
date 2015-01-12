@@ -1,8 +1,7 @@
 (function($) {
 	$(document).ready(function() {
-				
 				google.maps.event.addDomListener(window, 'load', google_map.init);
-	});
+});
 	
 	
 	// Variable de base 
@@ -41,8 +40,8 @@
 		
 		
 		// function() pointeur map 
-		
-		pointeur : function(i) {
+
+	pointeur : function(i) {
 			
 			var myLatlng = new google.maps.LatLng(listBat.monument[i].lat,listBat.monument[i].long);
 			
@@ -51,39 +50,38 @@
 			var contentString = '<div style="color:#d45a45; text-align:center; font-weight:500; min-width:200px; margin-left:24px;">'+listBat.monument[i].nom+'</div>';
 			
 			var infowindow = new google.maps.InfoWindow({
-      content: contentString
+      		content: contentString
   		});
 
-
-//	console.log(contentString);
-	var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-			icon: imgIcone,
-			 title: 'titre par default'
-
-
-      
-  		});
-	google.maps.event.addListener(marker, 'mouseover', function() {
-		if (typeof( window.infoopened ) != 'undefined')infoopened.close();
-		infowindow.open(map,marker);
-		infoopened = infowindow;
-  });	
-		google.maps.event.addListener(marker, 'click', function() {
-		$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-		$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-		$('.contenu_propos_regular').html(listBat.monument[i].architecte);
-		$('.contenu_propos_small').html(listBat.monument[i].info_architecte);
-		$('.contenu_propos_red').html(listBat.monument[i].chapeau);
-		$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
-		$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
-		$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+			var marker = new google.maps.Marker({
+					position: myLatlng,
+					map: map,
+					icon: imgIcone,
+					title: 'titre par default'
+			});
+	
+			google.maps.event.addListener(marker, 'mouseover', function() {
+		
+				if (typeof( window.infoopened ) != 'undefined')infoopened.close();
+						infowindow.open(map,marker);
+						infoopened = infowindow;
+  			});	
+		
+			google.maps.event.addListener(marker, 'click', function() {
+		
+				$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+				$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+				$('.contenu_propos_regular').html(listBat.monument[i].architecte);
+				$('.contenu_propos_small').html(listBat.monument[i].info_architecte);
+				$('.contenu_propos_red').html(listBat.monument[i].chapeau);
+				$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
+				$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
+				$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
   		listImg_slider =listBat.monument[i].img_1;
-		$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
-		$('.header_contenu_emploi').css("display","none");
-		$('.contenu_top').css({"background-color": "#FFF"});
-		$('.button_champs').css("display","block");
+				$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
+				$('.header_contenu_emploi').css("display","none");
+				$('.contenu_top').css({"background-color": "#FFF"});
+				$('.button_champs').css("display","block");
 
 
 		// var val_total_restaurant = listBat.monument[i].restaurant.length;
@@ -97,9 +95,6 @@
   });
     // marker.setCenter(map.getCenter());
 	marker.setMap(map);
-
-
-			
 			
 		}
 	
