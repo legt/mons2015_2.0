@@ -139,6 +139,7 @@ var btn_click = {
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
 		
+		
 
 		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
 		

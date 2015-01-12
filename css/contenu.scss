@@ -116,14 +116,16 @@ html{
 	}
 .header_contenu_emploi{
 	p{
+		width: 95%;
 		margin: 0;
 		margin-bottom: 36px;
 	}
 	.hand{
+		height: 60%;
 		position: absolute;
 		z-index: 10000;
 		right: 0;
-		top: 0;
+		bottom: 0;
 		cursor: pointer;
 
 	}
@@ -201,6 +203,11 @@ html{
 
 
 @media screen and (min-width:480px){
+	.header_contenu_emploi{
+		.hand{
+			height: 80%;
+		}
+	}
 	.line {
 	display: block;
 	position: relative;
@@ -244,5 +251,14 @@ html{
 	}
 	.img_monument{
 		height: 471px;
+	}
+	
+
+}
+@media screen and (min-width:960px){
+	.header_contenu_emploi{
+		.hand{
+			height: 100%;
+		}
 	}
 }

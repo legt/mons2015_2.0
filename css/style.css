@@ -713,13 +713,15 @@ html {
   width: 430px;
   font-weight: 300; }
   .header_contenu_emploi p {
+    width: 95%;
     margin: 0;
     margin-bottom: 36px; }
   .header_contenu_emploi .hand {
+    height: 60%;
     position: absolute;
     z-index: 10000;
     right: 0;
-    top: 0;
+    bottom: 0;
     cursor: pointer; }
 
 .img_monument {
@@ -774,6 +776,9 @@ html {
   display: none; }
 
 @media screen and (min-width: 480px) {
+  .header_contenu_emploi .hand {
+    height: 80%; }
+
   .line {
     display: block;
     position: relative;
@@ -813,6 +818,9 @@ html {
 
   .img_monument {
     height: 471px; } }
+@media screen and (min-width: 960px) {
+  .header_contenu_emploi .hand {
+    height: 100%; } }
 #Pinteret {
   display: none; }
 
