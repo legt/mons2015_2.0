@@ -85,6 +85,15 @@
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
 
+
+		// var val_total_restaurant = listBat.monument[i].restaurant.length;
+		
+		// for (var i = 0; i < val_total_restaurant; i++) {
+
+  //           $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[i].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[i].restaurant[i].nom + '</h3><p>' + listBat.monument[i].restaurant[i].adresse + ', ' + listBat.monument[i].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[i].restaurant[i].distance +'</article></div>' );
+
+	 //   	}
+
   });
     // marker.setCenter(map.getCenter());
 	marker.setMap(map);
