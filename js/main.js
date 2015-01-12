@@ -41,8 +41,22 @@ var menu = {
 						
             $('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><img src="img/'+ listBat.monument[i].img +'" class="nav_icone" alt=""><span>' + listBat.monument[i].nom + '</span></a>');
 						console.log(i);
+			if (window.matchMedia("(min-width: 960px)").matches){
+				$(".nav_top").hover(menu.menu_hover);
+				console.log(listBat.monument[i].img_1[1]);
+			}
+			
 	   	}
+    },
+
+    menu_hover : function(){
+    	var val_total_monument = listBat.monument.length;
+    	for (i = 0; i < val_total_monument; i++) {
+    		$(this).css("background","url(../"+ listBat.monument[i].img_1[0] +" )center").addClass('nav_active');
+    		if ()
+    	}
     }
+
 		
 };
 	
@@ -138,6 +152,7 @@ var btn_click = {
 		$('.header_contenu_emploi').css("display","none");
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
+		$('.maps_black').css("display","none");
 		
 		
 

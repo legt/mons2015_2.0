@@ -6,11 +6,16 @@ body{
 	font-family: 'Roboto', sans-serif;
 	color:#2a2a2a;
 }
+
 html{
 	box-sizing:border-box;
 }
 *, *:before, *:after{
 	box-sizing:inherit;
+}
+.error-message{
+	color:$red;
+	font-weight:500;
 }
 .maps_black{
 	width: 100%;
