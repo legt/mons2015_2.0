@@ -1,7 +1,7 @@
 (function ($) {
 	$(document).ready(function() {
 
-        menu.init();
+		menu.init();
         btn_click.init();
         slider.init();
         
@@ -11,8 +11,12 @@
 var listImg_slider = listBat.monument[0].img_1;
 var i =0;
 
+
+	
 var menu = {
     init : function() {
+				
+			
         menu.generate_nom_nav();
         
 				$('.hamburger').click(menu.toggleMenu);
@@ -41,22 +45,28 @@ var menu = {
 						
             $('.ul_top li').append('<a class="nav_top" id="mnt-' + i + '" href="#"><img src="img/'+ listBat.monument[i].img +'" class="nav_icone" alt=""><span>' + listBat.monument[i].nom + '</span></a>');
 						console.log(i);
-			if (window.matchMedia("(min-width: 960px)").matches){
-				$(".nav_top").hover(menu.menu_hover);
-				console.log(listBat.monument[i].img_1[1]);
+		
+			if (Modernizr.mq('only screen and (min-width: 960px)')==true){
+					$(".nav_top").hover(menu.menu_hover, menu.menu_nothover);
+					console.log(listBat.monument[i].img_1[1]);
 			}
-			
+				
 	   	}
     },
 
     menu_hover : function(){
-    	var val_total_monument = listBat.monument.length;
-    	for (i = 0; i < val_total_monument; i++) {
-    		$(this).css("background","url(../"+ listBat.monument[i].img_1[0] +" )center").addClass('nav_active');
-    	}
-    }
 
-		
+			$('.nav_top').css("background","#343434");	
+			var selec_hover = $(this).attr("id").slice(4);
+			console.log(selec_hover);
+				$(this).css({"background":"url(../"+ listBat.monument[selec_hover].img_1[0] +" ) center", "background-size": "cover"});
+    	
+    },
+
+
+		menu_nothover : function() {
+			$('.nav_top').css("background","#343434");	
+		}
 };
 	
 
@@ -152,6 +162,7 @@ var btn_click = {
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
 		$('.maps_black').css("display","none");
+		
 		
 
 		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
