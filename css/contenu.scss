@@ -5,7 +5,11 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	color:#2a2a2a;
-	cursor:url(../img/cursor.cur), auto;
+}
+
+html, body{
+    min-height: 100% !important;
+    height: 100%;
 }
 
 html{
@@ -243,13 +247,14 @@ html{
 	height: 70px;
 	text-align: center!important;
 }
-	h2{
+	.header_contenu h2{
 		display: inline-block;
 		text-decoration: none!important;
 		padding: 24px;
 		border: 1px white solid;
 		border-radius: 2px;
 	}
+
 	.contenu_propos p{
 		font-size: 18px;
 

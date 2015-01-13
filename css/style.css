@@ -620,8 +620,11 @@ a img {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2a2a2a;
-  cursor: url(../img/cursor.cur), auto; }
+  color: #2a2a2a; }
+
+html, body {
+  min-height: 100% !important;
+  height: 100%; }
 
 html {
   box-sizing: border-box; }
@@ -821,7 +824,7 @@ html {
     height: 70px;
     text-align: center !important; }
 
-  h2 {
+  .header_contenu h2 {
     display: inline-block;
     text-decoration: none !important;
     padding: 24px;
@@ -966,7 +969,6 @@ html {
   color: #d45a45;
   width: 240px;
   text-align: center;
-  cursor: url(img/cursor.cur), auto;
   display: none; }
 
 .container {
@@ -1049,32 +1051,66 @@ html {
 
   .contenu_main {
     margin-left: 309px; } }
-.profil {
+.profil_op {
   background: #d45a45;
-  padding: 48px; }
+  height: 100%;
+  width: 100%; }
 
 .contenu_profil {
+  padding: 0 24px;
   margin: 0;
-  color: #FFF; }
+  color: #FFF;
+  height: 480px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%; }
   .contenu_profil img {
     text-align: center;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    border: solid #d45a45 1px;
+    border-radius: 71px; }
   .contenu_profil p {
     margin: 0;
     font-weight: 300;
     text-align: center;
     font-style: italic;
     margin-bottom: 24px; }
-  .contenu_profil h2 {
+  .contenu_profil .h2_profil {
     margin: 0;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 24px; }
-  .contenu_profil .reseau {
+  .contenu_profil .reseau_face {
     text-align: center;
-    padding: 24px 0;
+    padding: 12px 0;
     width: 100%;
-    background: #c55542;
+    max-width: 500px;
+    background: #47639E;
     border-radius: 2px;
-    margin-bottom: 24px; }
+    margin: 0 auto 24px auto; }
+  .contenu_profil .reseau_twitter {
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    max-width: 500px;
+    background: #4099FF;
+    border-radius: 2px;
+    margin: 0 auto; }
+
+@media screen and (min-width: 480px) {
+  .profil {
+    background: url(../img/gare_1.jpg) no-repeat center; }
+
+  .profil_op {
+    background: rgba(212, 90, 69, 0.9); } }
+@media screen and (min-width: 960px) {
+  .contenu_profil {
+    margin-left: 309px; } }
+
+/*# sourceMappingURL=style.css.map */

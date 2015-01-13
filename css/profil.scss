@@ -1,13 +1,26 @@
-.profil{
+
+.profil_op{
 	background:$red;
-	padding:48px;
+	height:100%;
+	width:100%;
 }
 .contenu_profil{
+	padding:0 24px;
 	margin:0;
 	color:#FFF;
+	height: 480px;
+	position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+	margin:auto;
+	max-width:100%;
+	max-height:100%;
+
 	img{
 		text-align: center;
 		margin-bottom: 24px;
+		border: solid $red 1px;
+		border-radius:71px;
 	}
 	p{
 		margin: 0;
@@ -16,19 +29,43 @@
 		font-style: italic;
 		margin-bottom: 24px;
 	}
-	h2{
+	.h2_profil{
 		margin: 0;
 		font-size: 16px;
 		font-weight: 700;
 		text-align: center;
 		margin-bottom: 24px;
 	}
-	.reseau{
+	.reseau_face{
 		text-align: center;
-		padding:24px 0;
+		padding:12px 0;
 		width: 100%;
-		background:#c55542;
+		max-width: 500px;
+		background:#47639E;
 		border-radius: 2px;
-		margin-bottom: 24px;
+		margin: 0 auto 24px auto;
+	}
+	.reseau_twitter{
+		text-align: center;
+		padding:12px 0;
+		width: 100%;
+		max-width: 500px;
+		background:#4099FF;
+		border-radius: 2px;
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width:480px){
+	.profil{
+	background:url(../img/gare_1.jpg) no-repeat center;
+}
+.profil_op{
+	background:rgba(212,90,69,0.9);
+
+}
+}
+@media screen and (min-width:960px){
+	.contenu_profil{
+			margin-left:309px;
 	}
 }
