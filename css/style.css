@@ -798,6 +798,10 @@ html {
 .line {
   display: none; }
 
+.contain_fb_login {
+  text-align: center;
+  padding-top: 20px; }
+
 @media screen and (min-width: 480px) {
   .header_contenu_emploi .hand {
     height: 80%; }
@@ -1112,5 +1116,3 @@ html {
 @media screen and (min-width: 960px) {
   .contenu_profil {
     margin-left: 309px; } }
-
-/*# sourceMappingURL=style.css.map */
