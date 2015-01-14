@@ -568,13 +568,13 @@ a img {
 
   .nav_logo {
     display: block;
-    height: 166px;
+    height: 250px;
     border-left: solid #bbbbbb 5px; }
     .nav_logo p {
       margin: 0; }
     .nav_logo img {
       width: 175px;
-      margin: -5px 0px 0px 68px; }
+      margin: 40px 0px 0px 68px; }
 
   .ul_top {
     padding-bottom: 40px; }
@@ -1069,11 +1069,18 @@ html {
   margin: auto;
   max-width: 100%;
   max-height: 100%; }
+  .contenu_profil .img_profil_border {
+    width: 152px;
+    height: 152px;
+    border-radius: 75px;
+    border: solid 1px #FFF;
+    margin: 0 auto;
+    margin-bottom: 24px; }
   .contenu_profil img {
     text-align: center;
-    margin-bottom: 24px;
     border: solid #d45a45 1px;
-    border-radius: 71px; }
+    border-radius: 71px;
+    margin: 3px 0 0 0; }
   .contenu_profil p {
     margin: 0;
     font-weight: 300;
@@ -1093,7 +1100,8 @@ html {
     max-width: 500px;
     background: #47639E;
     border-radius: 2px;
-    margin: 0 auto 24px auto; }
+    margin: 0 auto 24px auto;
+    border: solid 2px #47639E; }
   .contenu_profil .reseau_twitter {
     text-align: center;
     padding: 12px 0;
@@ -1101,7 +1109,16 @@ html {
     max-width: 500px;
     background: #4099FF;
     border-radius: 2px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border: solid 2px #4099FF; }
+  .contenu_profil .reseau_face:hover {
+    background: rgba(71, 99, 158, 0);
+    border: solid 2px #47639E;
+    transition: 0.3s; }
+  .contenu_profil .reseau_twitter:hover {
+    background: rgba(64, 163, 255, 0);
+    border: solid 2px #4099FF;
+    transition: 0.3s; }
 
 @media screen and (min-width: 480px) {
   .profil {
