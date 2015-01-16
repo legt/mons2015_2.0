@@ -112,6 +112,7 @@ html{
 		.button_champs{
 			float: left;
 			width: 50%;
+			height: 48px;
 			color:$red;
 			font-size: 16px;
 			font-weight: 400;
@@ -119,16 +120,21 @@ html{
 			text-align: center;
 			text-decoration: underline;
 			display: none;
+			background: url(../img/sprite2.png) center -45px no-repeat;
+
 
 		}
-		.button_champs:hover{
-			background:#eee;
-			// color: white;
-			font-size: 18px;
+		.button_champs:hover, .button_champs:first-child:hover{
+			// background:#eee;
+			background-position: 50% 8px;
+			// // color: white;
+			// font-size: 18px;
 			transition: 0.4s;
+
 		}
 	.button_champs:first-child{
 		border-right: 1px solid $red;
+		background: url(../img/sprite.png) center -45px no-repeat;
 	}
 	}
 .header_contenu_emploi{

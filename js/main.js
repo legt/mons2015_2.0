@@ -80,6 +80,7 @@ var btn_click = {
         $('.nav_top').click(btn_click.click_nav_monument);
         $('#newsletter').click(btn_click.mail);
         $('.hand').click(btn_click.hand);
+       
         
     },
     
