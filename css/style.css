@@ -526,10 +526,11 @@ a img {
   .nav {
     float: left;
     position: fixed;
-    overflow: hidden;
+    overflow: visible;
     display: block;
     width: 310px;
-    background-color: #343434; }
+    background-color: #343434;
+    border-left: solid 5px #bbbbbb; }
 
   .nav_icone {
     display: none; }
@@ -538,12 +539,14 @@ a img {
     display: block; }
 
   .nav_top {
+    position: relative;
+    left: -5px;
     height: 40px;
     line-height: 40px;
     border-right: 0;
-    border-left: solid 5px #bbbbbb;
     background-color: #343434;
-    font-size: 13px; }
+    font-size: 13px;
+    border-left: 5px solid #bbbbbb; }
     .nav_top span {
       text-align: left;
       margin-left: 0px; }
@@ -562,14 +565,13 @@ a img {
     border-top: 1px solid #4e4e4e; }
 
   .nav_top:hover, .nav_active {
-    border-left: 5px solid #d45b46;
+    border-left: 5px solid #d45a45;
     border-right: 0px;
     background-color: #2a2a2a; }
 
   .nav_logo {
     display: block;
-    height: 250px;
-    border-left: solid #bbbbbb 5px; }
+    height: 250px; }
     .nav_logo p {
       margin: 0; }
     .nav_logo img {
@@ -585,8 +587,7 @@ a img {
     bottom: 0;
     height: 85px;
     border-top: 0px;
-    background-color: transparent;
-    border-left: solid 5px #bbbbbb; }
+    background-color: transparent; }
 
   .li_bottom {
     display: inline-block;
@@ -1145,5 +1146,3 @@ html {
 @media screen and (min-width: 960px) {
   .contenu_profil {
     margin-left: 309px; } }
-
-/*# sourceMappingURL=style.css.map */

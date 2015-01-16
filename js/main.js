@@ -56,8 +56,6 @@ var menu = {
     },
 
     menu_hover : function(){
-
-			$('.nav_top').css("background","#343434");	
 			var selec_hover = $(this).attr("id").slice(4);
 			console.log(selec_hover);
 				$(this).css({"background":"url(../"+ listBat.monument[selec_hover].img_1[0] +" ) center", "background-size": "cover"});
