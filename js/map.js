@@ -16,7 +16,7 @@
           zoom: 14,
 					minZoom: 12,
 					panControl: false,
-					zoomControl: true,
+					zoomControl: false,
 					zoomControlOptions: {style: google.maps.ZoomControlStyle.SMALL,position: google.maps.ControlPosition.TOP_LEFT},
 					mapTypeControl: false,
 					scaleControl: false,
