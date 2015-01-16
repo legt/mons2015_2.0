@@ -78,9 +78,16 @@ var btn_click = {
         $("#button_Pinteret").click(btn_click.clickPinteret);
         $('.return_maps').click(btn_click.return_maps);
         $('.nav_top').click(btn_click.click_nav_monument);
+        $('#newsletter').click(btn_click.mail);
         $('.hand').click(btn_click.hand);
+        
     },
     
+    mail : function(e){
+    	$('.contenu_mail').css("display","block");
+    	$('#container').css("display","none");
+    },
+
     hand : function(e){
     	$('.maps_black').css("display","none");
     },
@@ -147,7 +154,8 @@ var btn_click = {
     click_nav_monument : function () {
 
         var val_click = Number($(this).attr('id').slice(4));
-        
+        $('.contenu_mail').css("display","none");
+        $('#container').css("display","block");
 		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.header_contenu_info_rep').html('<span">'+listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br/>' + listBat.monument[val_click].Telephone + '<br/>' + listBat.monument[val_click].Mail+'</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
@@ -161,14 +169,15 @@ var btn_click = {
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
 		$('.maps_black').css("display","none");
+
 		
 		
 
 		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
-		
+			$('#pt_interet_lieu').html("");
 		for (var i = 0; i < val_total_restaurant; i++) {
 
-            $('#pt_interet_lieu').html('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
+            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
 
 	   	}
 

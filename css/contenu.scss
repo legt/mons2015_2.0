@@ -144,12 +144,11 @@ html{
 		background:#FFF;
 		color: $red;
 	}
-	.hand{
+.hand{
 		display: none;
 	}
 	color:#FFF;
 	font-size:18px;
-	width: 430px;
 	font-weight:300;
 }
 .img_monument {
@@ -226,6 +225,7 @@ html{
 
 @media screen and (min-width:480px){
 	.header_contenu_emploi{
+		width: 430px;
 		.hand{
 			height: 80%;
 		}
