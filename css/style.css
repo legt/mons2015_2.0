@@ -739,13 +739,14 @@ html {
     width: 95%;
     margin: 0;
     margin-bottom: 36px; }
+  .header_contenu_emploi .btn_hand {
+    padding: 24px 0;
+    width: 100%;
+    text-align: center;
+    background: #FFF;
+    color: #d45a45; }
   .header_contenu_emploi .hand {
-    height: 60%;
-    position: absolute;
-    z-index: 10000;
-    right: 0;
-    bottom: 0;
-    cursor: pointer; }
+    display: none; }
 
 .img_monument {
   height: 195px;
@@ -844,7 +845,18 @@ html {
     font-size: 16px; }
 
   .img_monument {
-    height: 471px; } }
+    height: 471px; }
+
+  .header_contenu_emploi .btn_hand {
+    display: none; }
+  .header_contenu_emploi .hand {
+    display: block;
+    height: 60%;
+    position: absolute;
+    z-index: 10000;
+    right: 0;
+    bottom: 0;
+    cursor: pointer; } }
 @media screen and (min-width: 960px) {
   .header_contenu_emploi .hand {
     height: 100%; } }
@@ -1133,3 +1145,5 @@ html {
 @media screen and (min-width: 960px) {
   .contenu_profil {
     margin-left: 309px; } }
+
+/*# sourceMappingURL=style.css.map */

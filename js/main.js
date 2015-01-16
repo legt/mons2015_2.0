@@ -170,7 +170,7 @@ var btn_click = {
 		
 		for (var i = 0; i < val_total_restaurant; i++) {
 
-            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
+            $('#pt_interet_lieu').html('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
 
 	   	}
 
@@ -239,11 +239,15 @@ var face_connection = {
                 
                 FB.init({
                     appId      : '321376851405004',
+                    status     : true,
                     cookie     : true,
+                    oauth	   : true,
                     xfbml      : true,
+                    frictionlessRequests: true,
                     version    : 'v2.1'
                 });
             };
+
             
              function checkLoginState() {
                 FB.getLoginStatus(function(response) {

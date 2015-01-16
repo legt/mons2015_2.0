@@ -137,14 +137,15 @@ html{
 		margin: 0;
 		margin-bottom: 36px;
 	}
+	.btn_hand{
+		padding:24px 0;
+		width: 100%;
+		text-align: center;
+		background:#FFF;
+		color: $red;
+	}
 	.hand{
-		height: 60%;
-		position: absolute;
-		z-index: 10000;
-		right: 0;
-		bottom: 0;
-		cursor: pointer;
-
+		display: none;
 	}
 	color:#FFF;
 	font-size:18px;
@@ -274,7 +275,23 @@ html{
 	.img_monument{
 		height: 471px;
 	}
-	
+	.header_contenu_emploi{
+
+	.btn_hand{
+		display: none;
+	}
+
+	.hand{
+		display: block;
+		height: 60%;
+		position: absolute;
+		z-index: 10000;
+		right: 0;
+		bottom: 0;
+		cursor: pointer;
+
+	}
+}
 
 }
 @media screen and (min-width:960px){

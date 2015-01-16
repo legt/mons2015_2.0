@@ -9,6 +9,22 @@
 	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/moderniz.js"></script>
 	<script type="text/javascript" src="js/listBatiment.js"></script>
+	<script type="text/javascript">
+	function fb_login(){
+				  
+
+			FB.login(function(response) {
+				   if (response.authResponse) {
+				     FB.api('/me', function(response) {
+				       $('.h2_profil').html(response.name);
+				       
+				     });
+				   } else {
+				     console.log('User cancelled login or did not fully authorize.');
+				   }
+				 });
+	}
+	</script>
 </head>
 <body class="profil">
 <div class="profil_op">
@@ -33,10 +49,10 @@
 	</div>
 </div>
 <div class="contenu_profil">
-	<div class="img_profil_border"><p><img src="img/test.png" alt=""></p></div>
-	<h2 class="h2_profil">Nom, Prénom</h2>
-	<p>Bienvenue sur votre profil mons 2015. <br>Ici vous pouvez tweeter, partager <br> vos liens sur Facebook .</p>
-	<div class="reseau_face">se connecter avec Facebook</div>
+	<div class="img_profil_border"><p class="profil_face"><img src="img/test.png" alt=""></p></div>
+	<h2 class="h2_profil">Votre profil</h2>
+	<p class="p_profil">Bienvenue sur votre profil mons 2015. <br>Ici vous pouvez tweeter, partager <br> vos liens sur Facebook .</p>
+	<div class="reseau_face" onclick="fb_login();"> se connecter avec Facebook</div>
 	<div class="reseau_twitter">se connecter avec Twitter</div>
 </div>
 

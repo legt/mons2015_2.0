@@ -150,114 +150,114 @@ var listBat = {
 		 "pt_img":"",
 		 "pt_titre":"",
 		 "pt_paragraphe":"",
-		 "restaurant" : [
+		  "restaurant" : [
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -279,118 +279,118 @@ var listBat = {
 		 "Maître_douvrage":"Ministère de la Communauté française Wallonie-Bruxelles, Service des Infrastructures culturelles, cofinancé par l’Union Européenne – Fonds FEDER",
 		 "pt_img":"",
 		 "pt_titre":"",
-		 "pt_paragraphe":"",
-		 "restaurant" : [
+		  "restaurant" : [
 		{"nom":"iCook!",
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
+
 		},
 		{"nom":"Les Abattoirs",
 		 "adresse":"Rue de la Trouille, 17",
@@ -415,109 +415,109 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -545,112 +545,114 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
+
+		
 		},
 		{"nom":"Le carré des Arts",
 		 "adresse":"Rue des Soeurs Noires, 4/B",
@@ -675,109 +677,109 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -805,112 +807,113 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
+
 		},
 		{"nom":"Le corps de ville",
 		 "adresse":"Rue des Trois Boudins 11",
@@ -935,109 +938,109 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -1065,109 +1068,109 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
@@ -1195,109 +1198,109 @@ var listBat = {
 		 "adresse":"Rue des Fripiers, 2",
 		 "commune":"Mons",
 		 "distance":"100 m",
-		 "logo":""
+		 "logo":"icook.png"
 		},
 		{"nom":"L'arts des mets",
 		 "adresse":"Rue des Clercs, 9",
 		 "commune":"Mons",
 		 "distance":"200 m",
-		 "logo":""
+		 "logo":"met.png"
 		},
 		{"nom":"Le bistro de Jean-Phi",
 		 "adresse":"Rue des Fripiers, 22b",
 		 "commune":"Mons",
 		 "distance":"300 m",
-		 "logo":""
+		 "logo":"jean.png"
 		},
 		{"nom":"La 5e saison",
 		 "adresse":"Rue de la Coupe, 25",
 		 "commune":"Mons",
 		 "distance":"400 m",
-		 "logo":""
+		 "logo":"cing.png"
 		},
 		{"nom":"La Table des Matières",
 		 "adresse":"Rue du Grand Trou Oudart, 16",
 		 "commune":"Mons",
 		 "distance":"500 m",
-		 "logo":""
+		 "logo":"table.png"
 		},
 		{"nom":"La Madeleine",
 		 "adresse":"Rue de la Halle, 42",
 		 "commune":"Mons",
 		 "distance":"600 m",
-		 "logo":""
+		 "logo":"madelaine.png"
 		},
 		{"nom":"Les Gribaumonts",
 		 "adresse":"Rue d’Havé, 95",
 		 "commune":"Mons",
 		 "distance":"700 m",
-		 "logo":""
+		 "logo":"gribaumonts.png"
 		},
 		{"nom":"L'Impératif",
 		 "adresse":"Rue Grande, 208",
 		 "commune":"Maisières",
 		 "distance":"800 m",
-		 "logo":""
+		 "logo":"imperatif.png"
 		},
 		{"nom":"Mercure",
 		 "adresse":"Rue des Fusillés, 12",
 		 "commune":"Nimy",
 		 "distance":"900 m",
-		 "logo":""
+		 "logo":"mercure.png"
 		},
 		{"nom":"Utopia",
 		 "adresse":"Chaussée Brunehault, 392b ",
 		 "commune":"Masnuy-Saint-Jean",
 		 "distance":"1000 m",
-		 "logo":""
+		 "logo":"utopia.png"
 		},
 		{"nom":"L’Assiette au Beurre",
 		 "adresse":"Rue de l’industrie, 278",
 		 "commune":"FRAMERIES",
 		 "distance":"1100 m",
-		 "logo":""
+		 "logo":"beurre.png"
 		},
 		{"nom":"d’Eugènie à Emilie",
 		 "adresse":"Place de la résistance, 1",
 		 "commune":"Baudour",
 		 "distance":"1200 m",
-		 "logo":""
+		 "logo":"emilie.png"
 		},
 		{"nom":"Le Faitout",
 		 "adresse":"Avenue Louis Goblet, 161",
 		 "commune":"Baudour",
 		 "distance":"1300 m",
-		 "logo":""
+		 "logo":"faitout.png"
 		},
 		{"nom":"Le Bercha",
 		 "adresse":"Route de Mons, 763",
 		 "commune":"Bray",
 		 "distance":"1400 m",
-		 "logo":""
+		 "logo":"bercha.png"
 		},
 		{"nom":"Les Gourmands ",
 		 "adresse":"Rue de Sars, 15",
 		 "commune":"Blaregnies",
 		 "distance":"1500 m",
-		 "logo":""
+		 "logo":"gourmands.png"
 		},
 		{"nom":"Quick",
 		 "adresse":"Avenue Wilson, 510",
 		 "commune":"Mons",
 		 "distance":"1600 m",
-		 "logo":""
+		 "logo":"quick.png"
 		},
 		{"nom":"Pizza Hut",
 		 "adresse":"Place Léopold, 7",
 		 "commune":"Mons",
 		 "distance":"1700 m",
-		 "logo":""
+		 "logo":"pizza.png"
 		},
 		{"nom":"MacDonalds",
 		 "adresse":"Grand Place, 39",
 		 "commune":"Mons",
 		 "distance":"1800 m",
-		 "logo":""
+		 "logo":"logo_mcdo.png"
 		}
 		
 	]
