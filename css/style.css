@@ -733,7 +733,6 @@ html {
 .header_contenu_emploi {
   color: #FFF;
   font-size: 18px;
-  width: 430px;
   font-weight: 300; }
   .header_contenu_emploi p {
     width: 95%;
@@ -804,8 +803,10 @@ html {
   padding-top: 20px; }
 
 @media screen and (min-width: 480px) {
-  .header_contenu_emploi .hand {
-    height: 80%; }
+  .header_contenu_emploi {
+    width: 430px; }
+    .header_contenu_emploi .hand {
+      height: 80%; }
 
   .line {
     display: block;
@@ -1006,6 +1007,9 @@ html {
   min-height: 100%;
   margin: 0 auto; }
 
+.contenu_mail {
+  display: none; }
+
 .mail_main {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -1035,6 +1039,8 @@ html {
   .mail_bot p {
     text-align: center;
     margin: 0; }
+  .mail_bot a img {
+    position: static; }
   .mail_bot img {
     padding: 0 5px 0 5px; }
 

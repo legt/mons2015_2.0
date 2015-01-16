@@ -32,6 +32,9 @@
 		min-height: 100%;
 		margin: 0 auto;
 }
+.contenu_mail{
+	display: none;
+}
 .mail_main{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -70,7 +73,9 @@
 		text-align: center;
 		margin: 0;
 	}
-
+	a img{
+		position:static;
+	}
 	img{
 		padding:0 5px 0 5px;
 	}

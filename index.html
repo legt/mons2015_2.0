@@ -15,7 +15,7 @@
 </head>
 <body>
 
-
+<div class="container">
 <div class="menu_container" id="monument_template">
 		<div class="hamburger"><img src="img/hamburger_w.png" alt="toggleMenu" width="28px" height="28px"></div>
 			<div class="nav">
@@ -32,9 +32,10 @@
                 </div> -->
 			<ul class="ul_bottom">
 				<li class="li_bottom"><a class="nav_bottom" href="index.html" id="home"></a></li>
-				<li class="li_bottom"><a class="nav_bottom" href="mail.html" id="newsletter"></a></li>
-				<li class="li_bottom"><a class="nav_bottom" href="https://www.facebook.com" id="face"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="newsletter"></a></li>
 				<li class="li_bottom"><a class="nav_bottom" href="https://www.twitter.com" id="twit"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="https://www.facebook.com/Mons2015official" id="face"></a></li>
+				
 			</ul>
 
 	</div>
@@ -124,6 +125,51 @@
 				</div>
 			</section>
 		</div>
+	</div>
+	<div class="contenu_mail">
+		<div id="content">
+			<div class="mail_top">
+				<p><span>" Abonnez-vous à notre Newsletter "</span><img src="img/mail.png" alt="icone mail"></p>
+			</div>
+
+			<div class="mail_main">
+				<form action="traitement.php" method="get">
+
+					<p>
+						<label for="nom">Nom: <br>
+							<input type="text" id="nom" name="nom" placeholder="Nom">
+						</label><br>
+						<span class="error-message"></span>
+					</p>
+
+					<p>
+						<label for="email">Email: <br>
+							<input type="text" id="email" name="email" placeholder="Email">
+						</label><br>
+						<span class="error-message"></span>
+					</p>
+					<p>
+						<input id="envoyer" type="submit" value="newsletter" >
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="mail_bot" id="footer">
+			<p>
+				<a href="http://www.wallonie.be/" target="_blank"><img src="img/sponsor/wallonie.png" alt="logo wallonie"></a>
+				<a href="http://ec.europa.eu/culture/" target="_blank"><img src="img/sponsor/eu_culture.png" alt="logo capitale européenne de la culture"></a>
+				<a href="http://www.federation-wallonie-bruxelles.be/" target="_blank"><img src="img/sponsor/walonnie_bxl.png" alt="logo wallonie bruxelles"></a>
+				<a href="http://www.2015entreprises.eu/" target="_blank"><img src="img/sponsor/club.png" alt="logo club mons 2015"></a>
+				<a href="http://www.hainaut.be/template/template.asp?page=accueil" target="_blank"><img src="img/sponsor/hainaut.png" alt="logo province du hainaut"></a>
+				<a href="https://www.ing.be/fr/retail/Pages/index.aspx" target="_blank"><img src="img/sponsor/ing.png" alt="logo ing"></a>
+				<a href="http://www.mons.be/" target="_blank"><img src="img/sponsor/mons.png" alt="logo mons"></a>
+				<a href="http://www.loterie-nationale.be/fr" target="_blank"><img src="img/sponsor/lotterie.png" alt="logo loterie nationale"></a>
+				<a href="http://www.rtbf.be/" target="_blank"><img src="img/sponsor/rtbf.png" alt="logo rtbf"></a>
+				<a href="http://www.belgique-tourisme.be/" target="_blank"><img src="img/sponsor/w_b.png" alt="logo wallonie bruxelles tourisme"></a>
+				<a href="http://www.lesoir.be/" target="_blank"><img src="img/sponsor/lesoir.png" alt="logo le soir"></a>
+			</p>
+		</div>
+	</div>
 	</div>
 	<script type="text/javascript" src="js/map.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
