@@ -80,6 +80,7 @@ var btn_click = {
         $('.nav_top').click(btn_click.click_nav_monument);
         $('#newsletter').click(btn_click.mail);
         $('.hand').click(btn_click.hand);
+				btn_click.click_pt_icone();
         
     },
     
@@ -173,11 +174,11 @@ var btn_click = {
 		
 		
 
-		var val_total_restaurant = listBat.monument[val_click].restaurant.length;
+		var val_total_restaurant = listResto.restaurant.length;
 			$('#pt_interet_lieu').html("");
 		for (var i = 0; i < val_total_restaurant; i++) {
 
-            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[val_click].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[val_click].restaurant[i].nom + '</h3><p>' + listBat.monument[val_click].restaurant[i].adresse + ', ' + listBat.monument[val_click].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[val_click].restaurant[i].distance +'</article></div>' );
+            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listResto.restaurant[i].logo +'" alt=""></div><article><h3>' + listResto.restaurant[i].nom + '</h3><p>' + listResto.restaurant[i].adresse + ', ' + listResto.restaurant[i].commune +'</p><p class="pt_interet_right">' + listResto.restaurant[i].distance +'</article></div>' );
 
 	   	}
 
@@ -185,7 +186,34 @@ var btn_click = {
 		
 
         $('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
-	}
+		},
+	
+		click_pt_icone : function () {
+			var val_total_restaurant = listResto.restaurant.length;
+			var val_total_hotel = listHotel.hotel.length;
+			var val_total_parking = listParking.parking.length;
+				$('.resto').click(function(){
+					$('#pt_interet_lieu').html("");
+		for (var i = 0; i < val_total_restaurant; i++) {
+
+            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listResto.restaurant[i].logo +'" alt=""></div><article><h3>' + listResto.restaurant[i].nom + '</h3><p>' + listResto.restaurant[i].adresse + ', ' + listResto.restaurant[i].commune +'</p><p class="pt_interet_right">' + listResto.restaurant[i].distance +'</article></div>' );
+
+	   	}
+				});
+				
+			$('.hosto').click(function(){
+				$('#pt_interet_lieu').html("");
+			for (var i = 0; i < val_total_hotel; i++) {
+				$('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listHotel.hotel[i].logo +'" alt=""></div><article><h3>' + listHotel.hotel[i].nom + '</h3><p>' + listHotel.hotel[i].adresse + ', ' + listHotel.hotel[i].commune +'</p><p class="pt_interet_right">' + listHotel.hotel[i].distance +'</article></div>' );
+			}
+			});
+			$('.parking').click(function(){
+				$('#pt_interet_lieu').html("");
+			for (var i = 0; i < val_total_parking; i++) {
+				$('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listParking.parking[i].logo +'" alt=""></div><article><h3>' + listParking.parking[i].nom + '</h3><p>' + listParking.parking[i].adresse + ', ' + listParking.parking[i].commune +'</p><p class="pt_interet_right">' + listParking.parking[i].distance +'</article></div>' );
+			}
+			});
+		}
 };
 
 var slider = {

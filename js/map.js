@@ -68,7 +68,7 @@
   			});	
 		
 			google.maps.event.addListener(marker, 'click', function() {
-		
+				
 				$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 				$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 				$('.contenu_propos_regular').html(listBat.monument[i].architecte);
@@ -84,13 +84,13 @@
 				$('.button_champs').css("display","block");
 
 
-		// var val_total_restaurant = listBat.monument[i].restaurant.length;
-		
-		// for (var i = 0; i < val_total_restaurant; i++) {
+		 var val_total_restaurant = listResto.restaurant.length;
+		$('#pt_interet_lieu').html("");
+		 for (var j = 0; j < val_total_restaurant; j++) {
 
-  //           $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listBat.monument[i].restaurant[i].logo +'" alt=""></div><article><h3>' + listBat.monument[i].restaurant[i].nom + '</h3><p>' + listBat.monument[i].restaurant[i].adresse + ', ' + listBat.monument[i].restaurant[i].commune +'</p><p class="pt_interet_right">' + listBat.monument[i].restaurant[i].distance +'</article></div>' );
+            $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listResto.restaurant[j].logo +'" alt=""></div><article><h3>' + listResto.restaurant[j].nom+ '</h3><p>' + listResto.restaurant[j].adresse + ', ' + listResto.restaurant[j].commune +'</p><p class="pt_interet_right">' + listResto.restaurant[j].distance +'</article></div>' );
 
-	 //   	}
+	   	}
 
   });
     // marker.setCenter(map.getCenter());
