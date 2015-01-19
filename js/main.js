@@ -169,6 +169,10 @@ var btn_click = {
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
 		$('.maps_black').css("display","none");
+		if (Modernizr.mq('only screen and (max-width: 960px)')==true){
+					$('.nav').css("display","none");
+			}
+			
 
 		
 		

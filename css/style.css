@@ -869,7 +869,7 @@ html {
 
 .img_curser {
   width: 100%;
-  height: auto; }
+  height: 375px; }
 
 .clear {
   clear: both; }
@@ -1149,5 +1149,3 @@ html {
 @media screen and (min-width: 960px) {
   .contenu_profil {
     margin-left: 309px; } }
-
-/*# sourceMappingURL=style.css.map */
