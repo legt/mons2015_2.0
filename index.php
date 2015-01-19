@@ -166,8 +166,9 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbj8qR69lAQf0DkOTR5gRwKlZkly7Z7_I&sensor=true" type="text/javascript"></script>
 	<script type="text/javascript" src="js/listBatiment.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/mail.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/mail.js"></script>
+	
 	
 	
 	

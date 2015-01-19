@@ -1101,6 +1101,11 @@ html {
     border: solid 1px #FFF;
     margin: 0 auto;
     margin-bottom: 24px; }
+  .contenu_profil img {
+    text-align: center;
+    border: solid #d45a45 1px;
+    border-radius: 71px;
+    margin: 3px 0 0 0; }
   .contenu_profil p {
     margin: 0;
     font-weight: 300;
@@ -1150,4 +1155,4 @@ html {
   .contenu_profil {
     margin-left: 309px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */

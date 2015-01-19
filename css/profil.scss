@@ -26,10 +26,6 @@
 	}
 
 	img{
-		text-align: center;
-		border: solid $red 1px;
-		border-radius:71px;
-		margin: 3px 0 0 0;
 	}
 	p{
 		margin: 0;
@@ -85,7 +81,8 @@
 }
 @media screen and (min-width:480px){
 	.profil{
-	background:url(../img/gare_1.jpg) no-repeat center;
+		background:$red;
+	
 }
 .profil_op{
 	background:rgba(212,90,69,0.9);
