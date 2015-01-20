@@ -30,11 +30,13 @@ var menu = {
     toggleMenu : function() {
 		////console.log('Click');
 		$('.nav').show("slide", {direction: "right"}, 500);
+		$('.hamburger').hide();
 		},
     
     closeMenu : function() {
         ////console.log('Click Close')
         $('.nav').hide("slide", {direction: "right"}, 500);
+			$('.hamburger').show();
     },
     
     generate_nom_nav : function() {
