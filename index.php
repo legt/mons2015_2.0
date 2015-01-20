@@ -49,7 +49,7 @@
 					<div class="header_contenu_emploi">
 						<p>Cliquez sur les pointeurs de la carte afin d’obtenir plus d’informations sur les différentes points d’intérets architecturaux de mons 2015</p> 
 						<b>Pour poursuivre cliquez sur l'icône</b>
-						<!-- <div class="btn_hand"><p>ok</p></div> -->
+						<div class="btn_hand"><p>ok</p></div> 
 						<img class="hand" src="img/info_img.png" alt="">
 
 					</div>

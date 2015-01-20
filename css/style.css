@@ -739,10 +739,18 @@ html {
   font-weight: 300; }
   .header_contenu_emploi p {
     width: 95%;
+    padding-top: 15px;
     margin: 0;
-    margin-bottom: 36px; }
+    margin-bottom: 30px; }
+  .header_contenu_emploi b {
+    display: none; }
   .header_contenu_emploi .btn_hand {
-    padding: 24px 0;
+    position: relative;
+    z-index: 2010;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    height: 50px;
     width: 100%;
     text-align: center;
     background: #FFF;
@@ -808,8 +816,8 @@ html {
 @media screen and (min-width: 480px) {
   .header_contenu_emploi {
     width: 430px; }
-    .header_contenu_emploi .hand {
-      height: 80%; }
+    .header_contenu_emploi b {
+      display: block; }
 
   .line {
     display: block;
@@ -855,7 +863,7 @@ html {
     display: none; }
   .header_contenu_emploi .hand {
     display: block;
-    height: 60%;
+    height: 75%;
     position: absolute;
     z-index: 10000;
     right: 0;
@@ -869,7 +877,7 @@ html {
 
 .img_curser {
   width: 100%;
-  height: auto; }
+  height: 375px; }
 
 .clear {
   clear: both; }
