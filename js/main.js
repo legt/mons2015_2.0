@@ -79,6 +79,7 @@ var btn_click = {
         $('.nav_top').click(btn_click.click_nav_monument);
         $('#newsletter').click(btn_click.mail);
         $('.hand').click(btn_click.hand);
+        $('.btn_hand').click(btn_click.hand);
 				btn_click.click_pt_icone();
         
     },
@@ -151,20 +152,20 @@ var btn_click = {
 				$('.maps_black').css("display","none");
 	},
    
-    click_nav_monument : function () {
+    click_nav_monument : function (){
 
         var val_click = Number($(this).attr('id').slice(4));
         $('.contenu_mail').css("display","none");
         $('#container').css("display","block");
-		console.log(val_click);
+				console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-		$('.header_contenu_info_rep').html('<span">'+listBat.monument[val_click].adresse + ', ' + listBat.monument[val_click].commune + '<br/>' + listBat.monument[val_click].Telephone + '<br/>' + listBat.monument[val_click].Mail+'</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+		$('.header_contenu_info_rep').html('<span">'+listBat.monument[val_click].adresse + '<br/>' + listBat.monument[val_click].Telephone + '<br/>' + listBat.monument[val_click].Mail+'</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.contenu_propos_regular').html(listBat.monument[val_click].architecte);
 		$('.contenu_propos_small').html(listBat.monument[val_click].info_architecte);
 		$('.contenu_propos_red').html(listBat.monument[val_click].chapeau);
 		$('.contenu_propos_p').html(listBat.monument[val_click].paragraphe);
 		$('.contenu_propos_sponsor_info').html(listBat.monument[val_click].Maître_douvrage);
-		$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+		$('.header_contenu_info').html('<span>Adresse : <br> Téléphone : <br> Mail : </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.header_contenu_emploi').css("display","none");
 		$('.contenu_top').css({"background-color": "#FFF"});
 		$('.button_champs').css("display","block");
@@ -178,8 +179,8 @@ var btn_click = {
 		
 
 		var val_total_restaurant = listResto.restaurant.length;
-			$('#pt_interet_lieu').html("");
-		for (var i = 0; i < val_total_restaurant; i++) {
+		$('#pt_interet_lieu').html("");
+		for (var i = 0; i < val_total_restaurant; i++){
 
             $('#pt_interet_lieu').append('<div class="pt_interet_lieu"><div class="pt_ic"><div class="resto pt_icone"></div><div class="hosto pt_icone"></div><div class="parking pt_icone"></div></div><div class="pt_interet_logo"><img src="img/'+ listResto.restaurant[i].logo +'" alt=""></div><article><h3>' + listResto.restaurant[i].nom + '</h3><p>' + listResto.restaurant[i].adresse + ', ' + listResto.restaurant[i].commune +'</p><p class="pt_interet_right">' + listResto.restaurant[i].distance +'</article></div>' );
 

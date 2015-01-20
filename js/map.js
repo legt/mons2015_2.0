@@ -70,13 +70,13 @@
 			google.maps.event.addListener(marker, 'click', function() {
 				
 				$('.titre_h2','').html('<h2>' + listBat.monument[i].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
-				$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + ', ' + listBat.monument[i].commune + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+				$('.header_contenu_info_rep').html('<span>' + listBat.monument[i].adresse + '<br/>' + listBat.monument[i].Telephone + '<br/>' + listBat.monument[i].Mail + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 				$('.contenu_propos_regular').html(listBat.monument[i].architecte);
 				$('.contenu_propos_small').html(listBat.monument[i].info_architecte);
 				$('.contenu_propos_red').html(listBat.monument[i].chapeau);
 				$('.contenu_propos_p').html(listBat.monument[i].paragraphe);
 				$('.contenu_propos_sponsor_info').html(listBat.monument[i].Maître_douvrage);
-				$('.header_contenu_info').html('<span>Adresse <br> Téléphone <br> E-mail </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+				$('.header_contenu_info').html('<span>Adresse : <br> Téléphone : <br> Mail : </span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
   		listImg_slider =listBat.monument[i].img_1;
 				$('.slider_img').css('background-image', 'url(' + listImg_slider[0] + ')');
 				$('.header_contenu_emploi').css("display","none");

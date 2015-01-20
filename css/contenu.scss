@@ -140,11 +140,20 @@ html{
 .header_contenu_emploi{
 	p{
 		width: 95%;
+		padding-top: 15px;
 		margin: 0;
-		margin-bottom: 36px;
+		margin-bottom: 30px;
+	}
+	b{
+		display: none;
 	}
 	.btn_hand{
-		padding:24px 0;
+		position: relative;
+		z-index: 2010;
+		border-radius: 2px; 
+		padding: 0;
+		margin: 0;
+		height: 50px;
 		width: 100%;
 		text-align: center;
 		background:#FFF;
@@ -232,8 +241,8 @@ html{
 @media screen and (min-width:480px){
 	.header_contenu_emploi{
 		width: 430px;
-		.hand{
-			height: 80%;
+		b{
+		display: block;
 		}
 	}
 	.line {
@@ -289,7 +298,7 @@ html{
 
 	.hand{
 		display: block;
-		height: 60%;
+		height: 75%;
 		position: absolute;
 		z-index: 10000;
 		right: 0;
