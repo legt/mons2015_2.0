@@ -735,13 +735,13 @@ html {
 
 .header_contenu_emploi {
   color: #FFF;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300; }
   .header_contenu_emploi p {
     width: 95%;
     padding-top: 15px;
     margin: 0;
-    margin-bottom: 20px; }
+    margin-bottom: 35px; }
   .header_contenu_emploi b {
     display: none; }
   .header_contenu_emploi .btn_hand {
@@ -754,7 +754,11 @@ html {
     width: 100%;
     text-align: center;
     background: #FFF;
-    color: #d45a45; }
+    color: #d45a45;
+    font-weight: 500; }
+  .header_contenu_emploi .btn_hand:hover {
+    background: #D59B91;
+    color: white; }
   .header_contenu_emploi .hand {
     display: none; }
 
