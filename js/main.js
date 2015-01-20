@@ -78,6 +78,7 @@ var btn_click = {
         $('.return_maps').click(btn_click.return_maps);
         $('.nav_top').click(btn_click.click_nav_monument);
         $('#newsletter').click(btn_click.mail);
+        $('#twit').click(btn_click.instagram);
         $('.hand').click(btn_click.hand);
 				btn_click.click_pt_icone();
         
@@ -85,6 +86,13 @@ var btn_click = {
     
     mail : function(e){
     	$('.contenu_mail').css("display","block");
+    	$('#container').css("display","none");
+    },
+
+    instagram : function(e){
+    	$('.contenu_profil').css("display","block");
+    	$('body').css("background","#2a2a2a");
+    	$('.contenu_mail').css("display","none");
     	$('#container').css("display","none");
     },
 
@@ -155,6 +163,7 @@ var btn_click = {
 
         var val_click = Number($(this).attr('id').slice(4));
         $('.contenu_mail').css("display","none");
+        $('.contenu_profil').css("display","none");
         $('#container').css("display","block");
 		console.log(val_click);
 		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});

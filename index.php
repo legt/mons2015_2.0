@@ -29,9 +29,9 @@
                 <p><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div></p>
                 </div> -->
 			<ul class="ul_bottom">
-				<li class="li_bottom"><a class="nav_bottom" href="index.html" id="home"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="index.php" id="home"></a></li>
 				<li class="li_bottom"><a class="nav_bottom" href="#" id="newsletter"></a></li>
-				<li class="li_bottom"><a class="nav_bottom" href="https://www.twitter.com" id="twit"></a></li>
+				<li class="li_bottom"><a class="nav_bottom" href="#" id="twit"></a></li>
 				<li class="li_bottom"><a class="nav_bottom" href="https://www.facebook.com/Mons2015official" id="face"></a></li>
 				
 			</ul>
@@ -161,6 +161,42 @@
 			</p>
 		</div>
 	</div>
+	<div class="contenu_profil">
+	<div class="h2"><span>25 000 euros en 3 mois oui c'est possible grace a ma méthode</span></div>
+		<div class="mask2"></div>
+			<?php 
+					error_reporting(-1);
+					$users_id = 347177570;
+					$client_id = "87338f4214514fc7ae03102ffc523132";
+					$limit = 21;
+					$endpoint ="https://api.instagram.com/v1/users/$users_id/media/recent/?client_id=$client_id&count=$limit";
+
+				try {
+					$curl = curl_init($endpoint);
+					curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 3);
+				    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+				    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+					
+					$data = json_decode(curl_exec($curl));
+
+					} catch (Exception $e) {
+						die($e->getMessage());
+					}
+					
+					if ($data->meta->code == 200) {
+						// echo "<p>J'ai bien récupéré les images</p>";
+
+						foreach($data->data as $image){
+				    		if ($image->type == 'image') {
+				        		echo "<img src='{$image->images->standard_resolution->url}'>";
+				    	}
+						}
+					} else {
+						echo "<p>error</p>";
+					}
+					// var_dump($data);
+		 ?>
+		</div>
 	</div>
 	<!-- <script type="text/javascript" src="js/index.js"></script> -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbj8qR69lAQf0DkOTR5gRwKlZkly7Z7_I&sensor=true" type="text/javascript"></script>

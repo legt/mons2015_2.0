@@ -80,7 +80,7 @@ var listBat = {
 		 "commune":"Mons",
 		 "Telephone":"+32 65 39 59 39",
 		 "Mail":"",
-		 "img_1":["img/arsonic_1.jpg", "img/arsonic_2.jpg", ""],
+		 "img_1":["img/arsonic_1.jpg", "img/arsonic_2.jpg", "img/arsonic_3.jpg"],
 		 "img":"nav_5.png",
 		 "Site web":"http://www.mons2015.eu/fr/arsonic-inauguration",
 		 "lat":"50.459442",
@@ -312,43 +312,43 @@ var listHotel = {
 			 "adresse":"Rue des Arbalestriers 112",
 			 "commune":"Mons",
 			 "distance":"100 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"Ibis Centre Gare",
 			 "adresse":"Boulevard Charles Quint 27b",
 			 "commune":"Mons",
 			 "distance":"200 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"Infotel",
 			 "adresse":"Rue d'Havré 32",
 			 "commune":"Mons",
 			 "distance":"300 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"l'Etna",
 			 "adresse":"Place Léopold 1",
 			 "commune":"Mons",
 			 "distance":"400 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"Sint-James Hotel",
 			 "adresse":"Place de Flandre 8",
 			 "commune":"Mons",
 			 "distance":"500 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"Dream",
 			 "adresse":"Rue de la Grande Triperie 17",
 			 "commune":"Mons",
 			 "distance":"600 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			},
 			{"nom":"Le Terminus",
 			 "adresse":"Place Léopold 3",
 			 "commune":"Mons",
 			 "distance":"700 m",
-			 "logo":"icook.png"
+			 "logo":"hotel.png"
 			}
 		]
 };
@@ -359,19 +359,19 @@ var listParking = {
 			 "adresse":"Rue de la Halle",
 			 "commune":"Mons",
 			 "distance":"100 m",
-			 "logo":"icook.png"
+			 "logo":"parking.png"
 			},
 			{"nom":"Parking Grand-Place",
 			 "adresse":"Rue d'Havré",
 			 "commune":"Mons",
 			 "distance":"100 m",
-			 "logo":"icook.png"
+			 "logo":"parking.png"
 			},
 			{"nom":"Free Street Side Parking",
 			 "adresse":"Boulevard Charles Quint",
 			 "commune":"Mons",
 			 "distance":"100 m",
-			 "logo":"icook.png"
+			 "logo":"parking.png"
 			}
 		]
 };

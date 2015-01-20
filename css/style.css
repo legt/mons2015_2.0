@@ -917,13 +917,16 @@ html {
   margin: 0 25px; }
 
 .resto {
-  background: url(../img/small_resto.png); }
+  background: url(../img/small_resto.png);
+  cursor: pointer; }
 
 .hosto {
-  background: url(../img/small_hosto.png); }
+  background: url(../img/small_hosto.png);
+  cursor: pointer; }
 
 .parking {
-  background: url(../img/small_parking.png); }
+  background: url(../img/small_parking.png);
+  cursor: pointer; }
 
 .pt_interet_info {
   display: none; }
@@ -1076,13 +1079,16 @@ html {
 
   .contenu_main {
     margin-left: 309px; } }
+.profil {
+  background: #2a2a2a; }
+
 .profil_op {
-  background: #d45a45;
   height: 100%;
   width: 100%; }
 
 .contenu_profil {
-  padding: 0 24px;
+  display: none;
+  padding: 0 0 0 24px;
   margin: 0;
   color: #FFF;
   height: 480px;
@@ -1093,7 +1099,13 @@ html {
   bottom: 0;
   margin: auto;
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  margin-top: 24px; }
+  .contenu_profil .mask2 {
+    background: url(../img/mask2.png) center;
+    height: 24px;
+    margin-left: -24px;
+    margin-bottom: 24px; }
   .contenu_profil .img_profil_border {
     width: 152px;
     height: 152px;
@@ -1101,6 +1113,25 @@ html {
     border: solid 1px #FFF;
     margin: 0 auto;
     margin-bottom: 24px; }
+  .contenu_profil .h2 {
+    height: 226px;
+    line-height: 250px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    background: #d45a45;
+    margin-top: -24px;
+    margin-left: -24px;
+    font-weight: 300;
+    background: url(../img/instagram.jpg) bottom;
+    font-size: 18px; }
+    .contenu_profil .h2 span {
+      border: solid white 1px;
+      border-radius: 2px;
+      padding: 24px; }
+  .contenu_profil img {
+    width: 100%;
+    padding-bottom: 24px;
+    padding-right: 24px; }
   .contenu_profil p {
     margin: 0;
     font-weight: 300;
@@ -1141,13 +1172,17 @@ html {
     transition: 0.3s; }
 
 @media screen and (min-width: 480px) {
-  .profil {
-    background: #d45a45; }
-
-  .profil_op {
-    background: rgba(212, 90, 69, 0.9); } }
+  .contenu_profil {
+    padding: 0 0 0 24px; }
+    .contenu_profil h2 {
+      margin-left: -24px; }
+    .contenu_profil img {
+      width: 50%;
+      padding-right: 24px; } }
 @media screen and (min-width: 960px) {
   .contenu_profil {
-    margin-left: 309px; } }
+    margin-left: 309px; }
+    .contenu_profil img {
+      width: 33%; } }
 
 /*# sourceMappingURL=style.css.map */
