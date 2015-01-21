@@ -169,7 +169,7 @@ var btn_click = {
         $('.contenu_profil').css("display","none");
         $('#container').css("display","block");
 				console.log(val_click);
-		$('.titre_h2','').html('<h2>' + listBat.monument[val_click].nom + '</h2>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
+		$('.titre_h2','').html('<span class="titre_h2_span">' + listBat.monument[val_click].nom + '</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.header_contenu_info_rep').html('<span">'+listBat.monument[val_click].adresse + '<br/>' + listBat.monument[val_click].Telephone + '<br/>' + listBat.monument[val_click].Mail+'</span>').css({opacity:0, marginTop:-20}).delay(200).animate({opacity:1, marginTop:0});
 		$('.contenu_propos_regular').html(listBat.monument[val_click].architecte);
 		$('.contenu_propos_small').html(listBat.monument[val_click].info_architecte);
